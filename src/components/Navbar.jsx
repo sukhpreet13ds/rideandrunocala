@@ -1,10 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../style/style.css';
 import logo from '../assets/rideandocala.png';
 import horseImg from '../assets/horse.png';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 30) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -16,7 +29,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar">
+            <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
                 <div className="nav-links">
                     <a href="#about">About</a>
                     <a href="#activities">Activities</a>
