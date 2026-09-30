@@ -1,0 +1,352 @@
+import '../style/style.css';
+import bgImage from '../assets/ride-herobg.jpg';
+import rightImage from '../assets/ride-right.jpg';
+import Song from '../components/Song';
+import Brands from '../components/Brands';
+import event1 from '../assets/ride-event1.jpg';
+import event2 from '../assets/ride-event2.jpg';
+import story1 from '../assets/story1.png';
+import story2 from '../assets/story2.png';
+import whyLeft from '../assets/why-left.jpg';
+import partner1 from '../assets/partner1.png';
+import partner2 from '../assets/partner2.png';
+import action1 from '../assets/action1.jpg';
+import action2 from '../assets/action2.jpg';
+import arena1 from '../assets/arena1.jpg';
+import arena2 from '../assets/arena2.jpg';
+import arena3 from '../assets/arena3.jpg';
+import survivorLeft from '../assets/survivor-left.png';
+import amountBg from '../assets/amount-bg.jpg';
+
+const Home = () => {
+    return (
+        <>
+            <div className="home-container" style={{ backgroundImage: `url(${bgImage})` }}>
+                <div className="top-banner">
+                    <p>Vfor All Participants, Spectators, Sponsors & Volunteers Before Entry.</p>
+                </div>
+
+                <div className="hero-section">
+                    <div className="hero-content">
+                        <div className="hero-subtitle">
+                            <span className="check-icon"><i className="fa-solid fa-check"></i></span> Ocala, Florida | October 31, 2026
+                        </div>
+                        <h1 className="hero-title">
+                            A CELEBRATION<br />OF COURAGE,<br />IN MOTION.
+                        </h1>
+                        <p className="hero-description">
+                            A family-friendly day at Florida Horse Park honoring breast cancer survivors and raising funds for breast cancer research at Moffitt Cancer Center and UF Health Cancer Institute.
+                        </p>
+                        <div className="hero-buttons">
+                            <button className="btn-register">
+                                <span className="icon"><i className="fa-solid fa-file-pen"></i></span> Register for the Event
+                            </button>
+                            <button className="btn-donate-alt">
+                                <span className="icon"><i className="fa-solid fa-hand-holding-dollar"></i></span> Donate Instead
+                            </button>
+                        </div>
+                    </div>
+                    <div className="hero-image">
+                        <img src={rightImage} alt="Ride right" />
+                    </div>
+                </div>
+
+                <div className="stats-section">
+                    <div className="stat-card">
+                        <h3>$35 / $10</h3>
+                        <p>Adults - $35 | Children ages 4-12 - $10<br />Children age 3 and under free</p>
+                    </div>
+                    <div className="stat-card">
+                        <h3>2 Beneficiaries</h3>
+                        <p>Moffitt Cancer Center & UF Health Cancer Institute</p>
+                    </div>
+                    <div className="stat-card">
+                        <h3>5 & 2 mi</h3>
+                        <p>Poker ride and family run/walk/ruck routes</p>
+                    </div>
+                    <div className="stat-card">
+                        <h3>501(c)(3)</h3>
+                        <p>Nonprofit organization (pending)</p>
+                    </div>
+                </div>
+            </div>
+            <Song/>
+
+            <section className="about-event-section">
+                <div className="section-header text-center">
+                    <h4 className="section-subtitle">ABOUT THE EVENT</h4>
+                    <h2 className="section-title">MAKING A DIFFERENCE</h2>
+                </div>
+                <div className="about-event-grid">
+                    <div className="event-card">
+                        <img src={event1} alt="Ride and Run Ocala" />
+                        <h3>ABOUT RIDE & RUN OCALA</h3>
+                        <p>Celebration of Life - Ride & Run for Breast Cancer is a joyful community event created to honor breast cancer survivors, encourage early detection, and raise funds for breast cancer research. The event is presented by Celebration of Life, Ride and Run for Breast Cancer, Inc., a 501(c)(3) nonprofit organization (pending).</p>
+                    </div>
+                    <div className="event-card divider"></div>
+                    <div className="event-card">
+                        <img src={event2} alt="Supporting Breast Cancer Research" />
+                        <h3>SUPPORTING BREAST CANCER RESEARCH</h3>
+                        <p>Proceeds from Celebration of Life - Ride & Run for Breast Cancer benefit two leading cancer institutions: Moffitt Cancer Center and UF Health Cancer Institute. Funds raised through the event will help advance breast cancer research, improve treatment, and bring new hope to individuals and families affected by breast cancer.</p>
+                    </div>
+                </div>
+                <div className="text-center">
+                    <button className="btn-contact">CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG</button>
+                </div>
+            </section>
+
+            <section className="our-story-section">
+                <div className="story-top">
+                    <div className="story-header">
+                        <h4 className="section-subtitle">OUR STORY</h4>
+                        <h2 className="section-title left-align">RIDE & RUN FOR BREAST CANCER</h2>
+                    </div>
+                    <div className="story-description">
+                        <p><strong>The Celebration of Life was founded on a simple, powerful promise:</strong> to unite Florida's vibrant horse country and athletic community in the fight against breast cancer. Hosted at Ocala's historic Florida Horse Park, our annual Ride & Run brings families together on the trails and track to honor survivors, remember loved ones, and fund breast cancer research. Every registration, every sponsor, and every single stride moves us closer to a cure.</p>
+                    </div>
+                </div>
+                <div className="story-cards">
+                    <div className="story-card">
+                        <h5 className="card-subtitle">MESSAGES FROM OUR BENEFICIARIES</h5>
+                        <img src={story1} alt="Moffitt Cancer Center" className="story-logo moffitt-logo" />
+                        <hr className="card-divider" />
+                        <p className="quote">"We are grateful for community partners like Celebration of Life, Ride and Run for Breast Cancer who work so hard to organize events and activities that support innovative research and treatment at Moffitt Cancer Center. You strive with us to create a better future without cancer. Thank you so much for your support!"</p>
+                        <div className="author">
+                            <p>Maria Muller</p>
+                            <p>Executive Vice President and President, Moffitt Foundation</p>
+                        </div>
+                    </div>
+                    <div className="story-card">
+                        <div className="card-top-area">
+                            <img src={story2} alt="UF Health Cancer Institute" className="story-logo uf-logo" />
+                        </div>
+                        <hr className="card-divider" />
+                        <p className="quote">"Each year, thousands of individuals and their loved ones face a breast cancer diagnosis, reminding us of the urgent need for continued prevention, early detection, and treatment innovations. Your support of the Celebration of Life, Ride and Run for Breast Cancer advances breast cancer research at the UF Health Cancer Institute. Breakthroughs in digital imaging, targeted therapies, and tailored survivorship care can transform lives, and your support helps make this work possible. Thank you for helping us move research forward and bring new hope to those affected by breast cancer."</p>
+                        <div className="author">
+                            <p>Dr. Thomas George</p>
+                            <p>Director, UF Health Cancer Institute</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="why-started-section">
+                <div className="why-left-image" style={{ backgroundImage: `url(${whyLeft})` }}></div>
+                <div className="why-content-wrapper">
+                    <div className="why-content">
+                        <div className="why-badge">WHY WE STARTED RIDE & RUN</div>
+                        <h2 className="section-title left-align" style={{marginBottom: '30px'}}>A MESSAGE FROM THE FOUNDER</h2>
+                        
+                        <div className="why-paragraphs">
+                            <p>"While dealing with breast cancer, I dreamed about creating this joyous event as a way of fighting back and creating awareness. There is life after breast cancer, if diagnosed early.</p>
+                            <p>"Fear" is a four-letter word that keeps many women from getting annual mammograms, doing self-exams or going to their doctors. Many walk around for years with lumps they can feel or are even visible. By allowing "fear" to rule their lives, they lessen their chances of survival. We hope they will see from the breast cancer survivors today, we are leading happy, healthy and productive lives.</p>
+                            <p>The "Celebration of Life" event honors the courage and strength of each breast cancer survivor throughout this life-changing experience. Dr. Bernie Siegel wrote, "Cancer is a gift." It was not readily apparent to me, but as time went on I began to understand what he meant. My gifts are the extraordinary people who continue to come into my life. They show me kindness, compassion and love as I have never known before. And it is because of them, my life has new meaning.</p>
+                        </div>
+
+                        <hr className="why-divider" />
+
+                        <div className="founder-footer">
+                            <div className="founder-info">
+                                <h3>Adrienne Skolnik</h3>
+                                <h4>Founder, President and Chairwoman</h4>
+                                <p>Celebration of Life, Ride and Run for Breast Cancer, Inc.</p>
+                                <p className="small-text">A 501(c)(3) nonprofit organization (pending)</p>
+                            </div>
+                            <div className="founder-action">
+                                <button className="btn-contact">CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="partners-section">
+                <div className="section-header text-center">
+                    <h4 className="section-subtitle">OUR PARTNERS</h4>
+                    <h2 className="section-title">OUR EVENT PARTNERS</h2>
+                    <p className="partners-description">With appreciation to the Florida Horse Park and The Horse Talk Show for helping bring this special day to life.</p>
+                </div>
+                
+                <div className="partners-grid">
+                    <div className="partner-card">
+                        <img src={partner1} alt="Florida Horse Park" />
+                        <h5>Florida Horse Park</h5>
+                        <p>Ocala, Florida</p>
+                    </div>
+                    <div className="partner-card">
+                        <img src={partner2} alt="The Horse Talk Show" />
+                        <h5>The Horse Talk Show</h5>
+                        <p>with Louisa Barton</p>
+                    </div>
+                </div>
+            </section>
+
+            <section className="adventure-section">
+                <div className="section-header text-center">
+                    <h4 className="section-subtitle white-text">JOIN THE ACTION</h4>
+                    <h2 className="section-title white-text">CHOOSE YOUR ADVENTURE</h2>
+                </div>
+                
+                <div className="adventure-grid">
+                    <div className="adventure-card">
+                        <img src={action1} alt="Poker Trail Ride" className="adventure-img" />
+                        <div className="adventure-card-content">
+                            <div className="adventure-card-title">
+                                <span className="adventure-icon"><i className="fa-solid fa-xmark"></i></span>
+                                <h3>POKER TRAIL RIDE</h3>
+                            </div>
+                            <ul className="adventure-features">
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> 5-mile scenic guided trail ride through oak hammocks</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Draw poker hand cards at designated scenic checkpoints</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Prizes for winning poker hands</li>
+                            </ul>
+                            <button className="btn-adventure">REGISTER TO RIDE</button>
+                        </div>
+                    </div>
+                    <div className="adventure-card">
+                        <img src={action2} alt="Family Run Walk Ruck" className="adventure-img" />
+                        <div className="adventure-card-content">
+                            <div className="adventure-card-title">
+                                <span className="adventure-icon"><i className="fa-solid fa-shoe-prints"></i></span>
+                                <h3>FAMILY RUN / WALK / RUCK</h3>
+                            </div>
+                            <ul className="adventure-features">
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Trail walk, run and ruck walk at your own pace</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Fully stroller, wagon, and dog-friendly trail</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> No motorized vehicles</li>
+                            </ul>
+                            <button className="btn-adventure">REGISTER TO RUN</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="stadium-section">
+                <div className="section-header text-center">
+                    <h4 className="section-subtitle">IN THE ARENA</h4>
+                    <h2 className="section-title">SPECTACULAR STADIUM SHOWS</h2>
+                </div>
+                
+                <div className="stadium-grid">
+                    <div className="stadium-card">
+                        <img src={arena1} alt="Survivor Celebration" className="stadium-img" />
+                        <div className="stadium-card-content">
+                            <h3>SURVIVOR CELEBRATION</h3>
+                            <p>Join us for a special Welcoming and Survivor Celebration as we recognize breast cancer survivors, honor their courage and strength, and celebrate life, community, and hope.</p>
+                            <a href="#" className="read-more-link active">READ MORE</a>
+                        </div>
+                    </div>
+                    <div className="stadium-card">
+                        <img src={arena2} alt="Mounted Games" className="stadium-img" />
+                        <div className="stadium-card-content">
+                            <h3>MOUNTED GAMES</h3>
+                            <p>Experience the excitement of Mounted Games with The Flying Aces, featuring Jackson Wagner and friends. This fast-paced equestrian sport combines speed, agility, and teamwork.</p>
+                            <a href="#" className="read-more-link">READ MORE</a>
+                        </div>
+                    </div>
+                    <div className="stadium-card">
+                        <img src={arena3} alt="Grande Liberte" className="stadium-img" />
+                        <div className="stadium-card-content">
+                            <h3>GRANDE LIBERTÉ</h3>
+                            <p>Sylvia Zerbini presents Grande Liberté with her Arabian horses, joined by The Jewell Twins violinists. Get ready for a unique mix of horses, music, and live performance in the arena!</p>
+                            <a href="#" className="read-more-link">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="extra-info-section">
+                <div className="extra-grid-top">
+                    <div className="info-card">
+                        <div className="info-card-title">
+                            <span className="info-icon"><i className="fa-solid fa-trophy"></i></span>
+                            <h3>DRAWINGS AND PRIZES</h3>
+                        </div>
+                        <p className="info-bold-text">Make sure to bring the drawing tickets you received with your registration.</p>
+                        <ul className="info-list">
+                            <li>Poker Hand Trail Ride Prize</li>
+                            <li>Prizes for best Halloween costume, adult, child and horses.</li>
+                        </ul>
+                    </div>
+                    <div className="info-card">
+                        <div className="info-card-title">
+                            <span className="info-icon"><i className="fa-regular fa-star"></i></span>
+                            <h3>MORE TO ENJOY</h3>
+                        </div>
+                        <p className="info-bold-text">There is even more waiting for you throughout the day:</p>
+                        <ul className="info-list">
+                            <li>Costume fun for guests and participants</li>
+                            <li>A variety of food trucks serving delicious main-course entrees and luscious desserts</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="survivor-card-container">
+                    <div className="survivor-left-img">
+                        <img src={survivorLeft} alt="Breast Cancer Survivors Gold Medal" />
+                    </div>
+                    <div className="survivor-right-content">
+                        <div className="survivor-title-wrap">
+                            <div className="pink-vertical-line"></div>
+                            <h2>SURVIVORS GOLD MEDAL</h2>
+                        </div>
+                        <p>All breast cancer survivors will receive as our special gift, the "Survivor Gold Medal." For they are all winners having fought this battle and won!</p>
+                        <button className="btn-pill-pink">HONORING EVERY SURVIVOR</button>
+                    </div>
+                </div>
+            </section>
+
+            <section className="tickets-section" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${amountBg})` }}>
+                <div className="tickets-banner">
+                    <h3>IMPORTANT: ALL RIDERS & RUNNERS MUST ELECTRONICALLY SIGN A WAIVER BEFORE ENTRY.</h3>
+                </div>
+                <div className="tickets-grid">
+                    <div className="ticket-card">
+                        <div className="ticket-content">
+                            <h4>Poker Ride Ticket</h4>
+                            <h2>$35</h2>
+                            <p>Includes (1) Poker Hand & Event T-shirt, Drawing Ticket</p>
+                        </div>
+                        <div className="ticket-register">
+                            <span>REGISTER</span>
+                        </div>
+                    </div>
+                    <div className="ticket-card">
+                        <div className="ticket-content">
+                            <h4>Family Run / Walk / Ruck</h4>
+                            <h2>$35</h2>
+                            <p>Includes Event T-Shirt, Drawing Ticket</p>
+                        </div>
+                        <div className="ticket-register">
+                            <span>REGISTER</span>
+                        </div>
+                    </div>
+                    <div className="ticket-card">
+                        <div className="ticket-content">
+                            <h4>Main Arena Equestrian Events</h4>
+                            <h2>$35</h2>
+                            <p>Includes Event T-Shirt, Drawing Ticket</p>
+                        </div>
+                        <div className="ticket-register">
+                            <span>REGISTER</span>
+                        </div>
+                    </div>
+                    <div className="ticket-card">
+                        <div className="ticket-content">
+                            <h4>Children 4-12</h4>
+                            <h2>$10</h2>
+                            <p>Under 3 Free</p>
+                        </div>
+                        <div className="ticket-register">
+                            <span>REGISTER</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <Brands />
+        </>
+    );
+};
+
+export default Home;

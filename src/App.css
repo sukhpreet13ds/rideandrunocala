@@ -1,0 +1,818 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Oxanium:wght@200..800&display=swap');
+
+:root {
+  --primary-color: #C8175D;
+  --title-color: #1B2431;
+  --font-oxanium: 'Oxanium', sans-serif;
+  --font-big-shoulder: "Big Shoulders", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* EXTRA EXTRA LARGE DESKTOPS */
+@media (max-width: 1800px) {}
+
+/* EXTRA LARGE DESKTOPS */
+@media (min-width: 1440px) and (max-width: 1799px) {}
+
+/* LARGE DESKTOPS */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .hero-title {
+    font-size: 75px;
+  }
+
+  .song-title {
+    font-size: 50px;
+  }
+
+  .section-title {
+    font-size: 48px;
+  }
+}
+
+/* 2. MINI DESKTOPS & LANDSCAPE TABLETS (Together) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .hero-title {
+    font-size: 60px;
+  }
+
+  .stats-section {
+    flex-wrap: wrap;
+  }
+
+  .stat-card {
+    min-width: 45%;
+  }
+
+  .nav-logo img {
+    height: 110px;
+  }
+
+  .song-title {
+    font-size: 45px;
+  }
+
+  .song-content-wrapper {
+    padding-top: 50px;
+  }
+
+  .section-title {
+    font-size: 42px;
+  }
+
+  .story-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .why-started-section {
+    flex-direction: column;
+  }
+
+  .why-left-image {
+    min-height: 400px;
+  }
+}
+
+/* 3. PORTRAIT TABLETS (Separate) */
+@media (min-width: 577px) and (max-width: 991px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    top: 20px;
+    left: 4%;
+    right: 4%;
+    padding: 10px 25px;
+    border-radius: 40px;
+    gap: 0;
+    box-sizing: border-box;
+    z-index: 990;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .nav-links,
+  .nav-actions {
+    display: none;
+  }
+
+  .nav-logo {
+    position: static;
+    transform: none;
+    top: auto;
+    left: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-logo img {
+    height: 75px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 140px 5% 40px;
+    gap: 40px;
+  }
+
+  .hero-subtitle {
+    justify-content: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .stats-section {
+    flex-direction: column;
+  }
+
+  .song-title {
+    font-size: 40px;
+  }
+
+  .song-content-wrapper {
+    padding-top: 40px;
+  }
+
+  .song-description {
+    font-size: 15px;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+
+  .about-event-grid,
+  .story-cards,
+  .story-top {
+    flex-direction: column;
+  }
+
+  .event-card.divider {
+    display: none;
+  }
+
+  .story-card:nth-child(1),
+  .story-card:nth-child(2) {
+    flex: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .why-started-section {
+    flex-direction: column;
+  }
+
+  .why-left-image {
+    min-height: 400px;
+  }
+
+  .founder-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .partners-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .partner-card {
+    width: calc(50% - 15px);
+    max-width: 380px;
+    box-sizing: border-box;
+  }
+
+  .adventure-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .stadium-card {
+    width: 48%;
+    box-sizing: border-box;
+  }
+
+  .extra-grid-top {
+    flex-direction: column;
+  }
+
+  .info-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .survivor-card-container {
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .survivor-left-img {
+    flex: none;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .survivor-right-content {
+    padding-left: 0;
+  }
+
+  .survivor-title-wrap {
+    justify-content: center;
+  }
+
+  .ticket-card {
+    width: 48%;
+    box-sizing: border-box;
+  }
+
+  .sponsor-tier-card {
+    box-sizing: border-box;
+  }
+
+  .platinum-grid .sponsor-item,
+  .gold-grid .sponsor-item,
+  .silver-grid .sponsor-item,
+  .bronze-grid .sponsor-item {
+    width: 45% !important;
+    min-width: unset !important;
+    box-sizing: border-box;
+  }
+
+  .sponsor-cta-banner {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    box-sizing: border-box;
+  }
+
+  .sponsor-cta-action {
+    margin-left: 0;
+  }
+
+  .visit-container {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .donate-banner-container {
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .footer-brand {
+    min-width: unset;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .footer-links,
+  .footer-contact,
+  .footer-social {
+    min-width: unset;
+    width: 100%;
+  }
+}
+
+/*  4. MOBILE (Separate) */
+@media (max-width: 576px) {
+  .top-banner {
+    font-size: 12px !important;
+  }
+
+  .navbar {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    position: fixed !important;
+    top: 36px !important;
+    left: 4% !important;
+    right: 4% !important;
+    padding: 8px 18px !important;
+    border-radius: 35px !important;
+    gap: 0 !important;
+    box-sizing: border-box !important;
+    z-index: 990 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .nav-links,
+  .nav-actions {
+    display: none !important;
+  }
+
+  .nav-logo {
+    position: static !important;
+    transform: none !important;
+    top: auto !important;
+    left: auto !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .nav-logo img {
+    height: 60px !important;
+  }
+
+  .menu-toggle {
+    display: block !important;
+  }
+
+  .hero-section {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 110px 5% 30px !important;
+    gap: 30px !important;
+    box-sizing: border-box !important;
+  }
+
+  .hero-title {
+    font-size: 58px !important;
+  }
+
+  .hero-description {
+    font-size: 22px !important;
+  }
+
+  .hero-subtitle {
+    justify-content: center !important;
+  }
+
+  .hero-buttons {
+    flex-direction: column !important;
+    gap: 20px !important;
+    width: 100% !important;
+    align-items: center !important;
+  }
+
+  .btn-register,
+  .btn-donate-alt {
+    margin-left: 0 !important;
+    width: 90% !important;
+    max-width: 320px !important;
+    justify-content: center !important;
+    padding: 0 20px 0 35px !important;
+    font-size: 24px;
+  }
+
+  .btn-register .icon,
+  .btn-donate-alt .icon {
+    left: -30px !important;
+  }
+
+  .stats-section {
+    flex-direction: column !important;
+    padding: 0 5% 40px !important;
+    gap: 15px !important;
+    box-sizing: border-box !important;
+  }
+
+  .stat-card {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .song-title {
+    font-size: 32px !important;
+  }
+
+  .song-content-wrapper {
+    padding-top: 30px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    box-sizing: border-box !important;
+  }
+
+  .song-description {
+    font-size: 16px !important;
+  }
+
+  .song-video-container {
+    border-radius: 10px !important;
+  }
+
+  .section-title {
+    font-size: 32px !important;
+  }
+
+  .about-event-section {
+    padding: 60px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .about-event-grid,
+  .story-cards,
+  .story-top {
+    flex-direction: column !important;
+  }
+
+  .event-card.divider {
+    display: none !important;
+  }
+
+  .our-story-section {
+    padding: 60px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .story-card {
+    padding: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .story-card:nth-child(1),
+  .story-card:nth-child(2) {
+    flex: none !important;
+    width: 100% !important;
+  }
+
+  .why-started-section {
+    flex-direction: column !important;
+    box-sizing: border-box !important;
+  }
+
+  .why-left-image {
+    min-height: 300px !important;
+  }
+
+  .why-content-wrapper {
+    padding: 40px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .founder-footer {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .founder-action {
+    width: 100% !important;
+  }
+
+  .founder-action .btn-contact {
+    width: 100% !important;
+    padding: 15px !important;
+    font-size: 19px !important;
+  }
+
+  .founder-info p {
+    font-size: 16px !important;
+  }
+
+  .partners-section {
+    padding: 60px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .partners-grid {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .partner-card {
+    flex: 1 1 0 !important;
+    width: calc(50% - 6px) !important;
+    max-width: calc(50% - 6px) !important;
+    padding: 20px 10px !important;
+    box-sizing: border-box !important;
+  }
+
+  .partner-card img {
+    height: 60px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .partner-card h5 {
+    font-size: 15px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .partner-card p {
+    font-size: 12px !important;
+  }
+
+  .adventure-section {
+    padding: 60px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .adventure-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .stadium-section {
+    padding: 60px 5% !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  .stadium-grid {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    gap: 16px !important;
+    padding: 10px 5px 25px !important;
+    width: 100% !important;
+    justify-content: flex-start !important;
+    scrollbar-width: none !important;
+  }
+
+  .stadium-grid::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .stadium-card {
+    flex: 0 0 82% !important;
+    width: 82% !important;
+    max-width: 82% !important;
+    scroll-snap-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .extra-info-section {
+    padding: 60px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .extra-grid-top {
+    flex-direction: column !important;
+  }
+
+  .info-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .quote {
+    font-size: 16px !important;
+  }
+
+  .survivor-card-container {
+    flex-direction: column !important;
+    padding: 30px 15px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .survivor-left-img {
+    flex: none !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .survivor-right-content {
+    padding-left: 0 !important;
+  }
+
+  .survivor-title-wrap {
+    justify-content: center !important;
+  }
+
+  .tickets-section {
+    padding: 60px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .tickets-banner {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 15px 20px !important;
+  }
+
+  .tickets-banner h3 {
+    font-size: 16px !important;
+  }
+
+  .tickets-grid {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .ticket-card {
+    width: calc(50% - 6px) !important;
+    max-width: calc(50% - 6px) !important;
+    min-width: unset !important;
+    box-sizing: border-box !important;
+    border-radius: 12px !important;
+    margin: 0 !important;
+  }
+
+  .ticket-content {
+    padding: 16px 10px !important;
+    box-sizing: border-box !important;
+  }
+
+  .ticket-content h4 {
+    font-size: 16px !important;
+    min-height: 40px !important;
+    line-height: 1.15 !important;
+    margin-bottom: 5px !important;
+  }
+
+  .ticket-content h2 {
+    font-size: 30px !important;
+    margin-bottom: 6px !important;
+  }
+
+  .ticket-content p {
+    font-size: 10px !important;
+    line-height: 1.3 !important;
+  }
+
+  .ticket-register {
+    width: 36px !important;
+  }
+
+  .ticket-register span {
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .brands-section {
+    padding: 60px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .brands-container {
+    box-sizing: border-box !important;
+  }
+
+  .sponsor-tier-card {
+    padding: 25px 12px !important;
+    box-sizing: border-box !important;
+  }
+
+  .platinum-grid,
+  .gold-grid,
+  .silver-grid,
+  .bronze-grid {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    gap: 15px 10px !important;
+    width: 100% !important;
+  }
+
+  .platinum-grid .sponsor-item,
+  .gold-grid .sponsor-item,
+  .silver-grid .sponsor-item,
+  .bronze-grid .sponsor-item {
+    width: calc(50% - 6px) !important;
+    max-width: calc(50% - 6px) !important;
+    min-width: unset !important;
+    box-sizing: border-box !important;
+  }
+
+  .sponsor-img-wrapper {
+    height: 90px !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+  }
+
+  .sponsor-item p {
+    font-size: 11px !important;
+  }
+
+  .sponsor-cta-banner {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 30px !important;
+    padding: 30px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .sponsor-cta-action {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .btn-sponsorship-kit {
+    width: 100% !important;
+  }
+
+  .visit-section {
+    padding: 60px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .visit-container {
+    flex-direction: column !important;
+    box-sizing: border-box !important;
+  }
+
+  .visit-title {
+    font-size: 36px !important;
+  }
+
+  .schedule-item {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+
+  .schedule-time {
+    width: 100% !important;
+  }
+
+  .donate-banner {
+    padding: 30px 5% !important;
+    box-sizing: border-box !important;
+  }
+
+  .donate-banner-container {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .donate-banner-left {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  .donate-banner-left h2 {
+    font-size: 28px !important;
+  }
+
+  .footer-main {
+    padding: 60px 5% 30px !important;
+    box-sizing: border-box !important;
+  }
+
+  .footer-top {
+    gap: 30px !important;
+    padding-bottom: 40px !important;
+    box-sizing: border-box !important;
+  }
+
+  .footer-brand {
+    min-width: unset !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .footer-links,
+  .footer-contact,
+  .footer-social {
+    min-width: unset !important;
+    width: 100% !important;
+  }
+
+  .footer-bottom {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 15px !important;
+    box-sizing: border-box !important;
+  }
+}
