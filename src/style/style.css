@@ -62,9 +62,11 @@
     border-radius: 50%;
 }
 
-.nav-actions {
-    display: flex !important;
-    gap: 15px !important;
+@media (min-width: 992px) {
+    .nav-actions {
+        display: flex !important;
+        gap: 15px !important;
+    }
 }
 
 .btn-donate {
@@ -1948,4 +1950,19 @@ footer {
     display: inline-block;
     white-space: pre;
     opacity: 0;
+}
+
+@media (max-width: 991px) {
+    .navbar .nav-actions,
+    .navbar.animate-nav .nav-actions,
+    .nav-actions {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        position: absolute !important;
+    }
 }
