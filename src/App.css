@@ -680,6 +680,7 @@ body {
     z-index: 990 !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18) !important;
     transition: top 0.35s cubic-bezier(0.4, 0, 0.2, 1), padding 0.35s ease, box-shadow 0.35s ease !important;
+    animation: none !important;
   }
 
   .navbar.scrolled {
@@ -691,6 +692,7 @@ body {
   .nav-links,
   .nav-actions {
     display: none !important;
+    animation: none !important;
   }
 
   .nav-logo {
@@ -700,6 +702,8 @@ body {
     left: auto !important;
     display: flex !important;
     align-items: center !important;
+    animation: none !important;
+    opacity: 1 !important;
   }
 
   .nav-logo img {
@@ -708,6 +712,8 @@ body {
 
   .menu-toggle {
     display: block !important;
+    animation: none !important;
+    opacity: 1 !important;
   }
 
   .hero-section {
