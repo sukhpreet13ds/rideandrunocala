@@ -581,7 +581,7 @@ color: #D8467A !important;
 .about-event-section {
     background-color: white;
     padding: 80px 4%;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -592,7 +592,7 @@ color: #D8467A !important;
 .section-subtitle {
     color: #D8467A;
     font-family: var(--font-oxanium);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -601,7 +601,7 @@ color: #D8467A !important;
 
 .section-title {
     font-family: var(--font-big-shoulder);
-    font-size: 55px;
+    font-size: 56px;
     color: #1B2431;
     text-transform: uppercase;
     line-height: 1.1;
@@ -613,7 +613,9 @@ color: #D8467A !important;
     text-align: left;
     margin-bottom: 0;
 }
-
+.partners-title{
+font-size: 72px;
+}
 .about-event-grid {
     display: flex;
     justify-content: space-between;
@@ -634,7 +636,7 @@ color: #D8467A !important;
 
 .event-card h3 {
     font-family: var(--font-big-shoulder);
-    font-size: 32px;
+    font-size: 40px;
     color: #1B2431;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -642,9 +644,9 @@ color: #D8467A !important;
 
 .event-card p {
     font-family: var(--font-oxanium);
-    font-size: 16px;
-    color: #4A4A4A;
-    line-height: 1.6;
+    font-size: 22px;
+    color: #1B2431;
+    line-height: 1.4;
 }
 
 .event-card.divider {
@@ -655,13 +657,13 @@ color: #D8467A !important;
 
 .btn-contact {
     background-color: #D8467A;
-    color: white;
+    color: #fff;
     border: none;
     padding: 18px 30px;
     border-radius: 5px;
-    font-family: var(--font-oxanium);
+    font-family: var(--font-big-shoulder);
     font-weight: 700;
-    font-size: 16px;
+    font-size: 22px;
     cursor: pointer;
     transition: background-color 0.3s;
     text-transform: uppercase;
@@ -681,7 +683,7 @@ color: #D8467A !important;
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto 50px auto;
 }
 
@@ -692,7 +694,7 @@ color: #D8467A !important;
 .story-description {
     flex: 1;
     font-family: var(--font-oxanium);
-    font-size: 16px;
+    font-size: 20px;
     color: #4A4A4A;
     line-height: 1.7;
     display: flex;
@@ -702,7 +704,7 @@ color: #D8467A !important;
 .story-cards {
     display: flex;
     gap: 40px;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -757,7 +759,7 @@ color: #D8467A !important;
 
 .quote {
     font-family: var(--font-oxanium);
-    font-size: 15px;
+    font-size: 19px;
     color: #666;
     line-height: 1.6;
     margin-bottom: 30px;
@@ -766,7 +768,7 @@ color: #D8467A !important;
 
 .author p {
     font-family: var(--font-oxanium);
-    font-size: 14px;
+    font-size: 19px;
     color: #333;
     margin: 0;
 }
@@ -801,7 +803,7 @@ color: #D8467A !important;
     flex: 1;
     display: flex;
     align-items: center;
-    padding: 80px 6%;
+    padding: 80px 4%;
 }
 
 .why-content {
@@ -813,8 +815,8 @@ color: #D8467A !important;
     color: white;
     display: inline-block;
     padding: 6px 12px;
-    font-family: var(--font-oxanium);
-    font-size: 11px;
+    font-family: var(--font-big-shoulder);
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -824,7 +826,7 @@ color: #D8467A !important;
 
 .why-paragraphs p {
     font-family: var(--font-oxanium);
-    font-size: 16px;
+    font-size: 18px;
     color: #333;
     line-height: 1.8;
     margin-bottom: 20px;
@@ -856,7 +858,7 @@ color: #D8467A !important;
 .founder-info h4 {
     color: #D8467A;
     font-family: var(--font-oxanium);
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -864,13 +866,13 @@ color: #D8467A !important;
 
 .founder-info p {
     font-family: var(--font-oxanium);
-    font-size: 12px;
+    font-size: 15px;
     color: #666;
     margin-bottom: 3px;
 }
 
 .founder-info p.small-text {
-    font-size: 11px;
+    font-size: 14px;
     color: #999;
 }
 
@@ -882,7 +884,7 @@ color: #D8467A !important;
 
 .partners-description {
     font-family: var(--font-oxanium);
-    font-size: 16px;
+    font-size: 22px;
     color: #666;
     max-width: 600px;
     margin: 0 auto 50px auto;
@@ -904,13 +906,13 @@ color: #D8467A !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 350px;
+    width: 400px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     text-align: center;
 }
 
 .partner-card img {
-    height: 100px;
+    height: 128px;
     width: auto;
     object-fit: contain;
     margin-bottom: 25px;
@@ -918,16 +920,16 @@ color: #D8467A !important;
 
 .partner-card h5 {
     font-family: var(--font-oxanium);
-    font-size: 18px;
+    font-size: 26px;
     color: #1B2431;
     font-weight: 700;
     margin-bottom: 5px;
 }
 
 .partner-card p {
-    font-family: var(--font-oxanium);
-    font-size: 14px;
-    color: #666;
+    font-family: var(--font-big-shoulder);
+    font-size: 16px;
+    color: #1B2431;
 }
 
 /* Adventure Section */
@@ -994,7 +996,7 @@ color: #D8467A !important;
 
 .adventure-card-title h3 {
     font-family: var(--font-big-shoulder);
-    font-size: 32px;
+    font-size: 40px;
     color: #1B2431;
     margin: 0;
     text-transform: uppercase;
@@ -1009,7 +1011,7 @@ color: #D8467A !important;
 
 .adventure-features li {
     font-family: var(--font-oxanium);
-    font-size: 15px;
+    font-size: 20px;
     color: #333;
     margin-bottom: 15px;
     display: flex;
@@ -1029,9 +1031,9 @@ color: #D8467A !important;
     border: none;
     padding: 16px;
     border-radius: 5px;
-    font-family: var(--font-oxanium);
+    font-family: var(--font-big-shoulder);
     font-weight: 700;
-    font-size: 15px;
+    font-size: 22px;
     cursor: pointer;
     transition: background-color 0.3s;
     text-transform: uppercase;
@@ -1083,7 +1085,7 @@ color: #D8467A !important;
 
 .stadium-card-content h3 {
     font-family: var(--font-big-shoulder);
-    font-size: 28px;
+    font-size: 32px;
     color: #1B2431;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -1091,8 +1093,8 @@ color: #D8467A !important;
 
 .stadium-card-content p {
     font-family: var(--font-oxanium);
-    font-size: 14px;
-    color: #666;
+    font-size: 16px;
+    color: #1B2431;
     line-height: 1.6;
     margin-bottom: 25px;
     flex-grow: 1;
@@ -1100,15 +1102,15 @@ color: #D8467A !important;
 
 .read-more-link {
     font-family: var(--font-big-shoulder);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
-    color: #333;
+    color: #1B2431;
     text-decoration: none;
     transition: color 0.3s;
     text-transform: uppercase;
 }
 
-.read-more-link.active, .read-more-link:hover {
+ .read-more-link:hover {
     color: #D8467A;
 }
 
@@ -1122,7 +1124,7 @@ color: #D8467A !important;
     display: flex;
     justify-content: center;
     gap: 30px;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto 30px auto;
 }
 
@@ -1157,7 +1159,7 @@ color: #D8467A !important;
 
 .info-card-title h3 {
     font-family: var(--font-big-shoulder);
-    font-size: 32px;
+    font-size: 40px;
     color: #1B2431;
     margin: 0;
     text-transform: uppercase;
@@ -1165,7 +1167,7 @@ color: #D8467A !important;
 
 .info-bold-text {
     font-family: var(--font-oxanium);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: #333;
     margin-bottom: 25px;
@@ -1179,8 +1181,8 @@ color: #D8467A !important;
 
 .info-list li {
     font-family: var(--font-oxanium);
-    font-size: 15px;
-    color: #555;
+    font-size: 20px;
+    color: #1B2431;
     margin-bottom: 15px;
     padding-left: 20px;
     position: relative;
@@ -1242,7 +1244,7 @@ color: #D8467A !important;
 
 .survivor-title-wrap h2 {
     font-family: var(--font-big-shoulder);
-    font-size: 40px;
+    font-size: 48px;
     color: #1B2431;
     margin: 0;
     text-transform: uppercase;
@@ -1250,7 +1252,7 @@ color: #D8467A !important;
 
 .survivor-right-content p {
     font-family: var(--font-oxanium);
-    font-size: 16px;
+    font-size: 20px;
     color: #444;
     line-height: 1.6;
     margin-bottom: 25px;
@@ -1262,9 +1264,9 @@ color: #D8467A !important;
     border: none;
     padding: 12px 30px;
     border-radius: 30px;
-    font-family: var(--font-oxanium);
+    font-family: var(--font-big-shoulder);
     font-weight: 700;
-    font-size: 13px;
+    font-size: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
     text-transform: uppercase;
@@ -1297,7 +1299,7 @@ color: #D8467A !important;
 .tickets-banner h3 {
     font-family: var(--font-big-shoulder);
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1307,7 +1309,7 @@ color: #D8467A !important;
     display: flex;
     justify-content: center;
     gap: 30px;
-    max-width: 1400px;
+    max-width: 1800px;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -1331,23 +1333,23 @@ color: #D8467A !important;
 
 .ticket-content h4 {
     font-family: var(--font-big-shoulder);
-    font-size: 24px;
+    font-size: 28px;
     color: #F2B705;
     margin: 0 0 10px 0;
     text-transform: uppercase;
-    min-height: 56px;
+    min-height: 30px;
 }
 
 .ticket-content h2 {
     font-family: var(--font-big-shoulder);
-    font-size: 50px;
+    font-size: 56px;
     color: white;
     margin: 0 0 15px 0;
 }
 
 .ticket-content p {
     font-family: var(--font-oxanium);
-    font-size: 11px;
+    font-size: 16px;
     color: #E0E0E0;
     line-height: 1.5;
     margin: 0;
@@ -1370,7 +1372,7 @@ color: #D8467A !important;
 .ticket-register span {
     font-family: var(--font-big-shoulder);
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     writing-mode: vertical-rl;
@@ -1401,7 +1403,7 @@ color: #D8467A !important;
 
 .sponsor-tier-title {
     font-family: var(--font-big-shoulder);
-    font-size: 24px;
+    font-size: 26px;
     color: #D8467A;
     text-transform: uppercase;
     text-align: center;
@@ -1414,7 +1416,7 @@ color: #D8467A !important;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 0px;
 }
 
 .platinum-grid .sponsor-item {
@@ -1445,13 +1447,13 @@ color: #D8467A !important;
 }
 
 .sponsor-img-wrapper {
-    width: 100%;
-    height: 120px;
+    /* width: 100%; */
+    /* height: 120px; */
     border: 1px solid #eaeaea;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 0px;
     margin-bottom: 15px;
     background-color: white;
 }
@@ -1464,7 +1466,7 @@ color: #D8467A !important;
 
 .sponsor-item p {
     font-family: var(--font-oxanium);
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 700;
     color: #333;
     margin: 0;
@@ -1472,7 +1474,7 @@ color: #D8467A !important;
 
 .sponsor-cta-banner {
     background-color: #C01A5C;
-    padding: 40px 5%;
+    padding: 24px 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1486,7 +1488,7 @@ color: #D8467A !important;
 
 .sponsor-cta-content h2 {
     font-family: var(--font-big-shoulder);
-    font-size: 36px;
+    font-size: 60px;
     color: white;
     margin: 0 0 10px 0;
     text-transform: uppercase;
@@ -1494,7 +1496,7 @@ color: #D8467A !important;
 
 .sponsor-cta-content p {
     font-family: var(--font-oxanium);
-    font-size: 14px;
+    font-size: 20px;
     color: #f0f0f0;
     margin: 0;
     max-width: 600px;
@@ -1512,7 +1514,7 @@ color: #D8467A !important;
     border-radius: 5px;
     font-family: var(--font-big-shoulder);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px;
     cursor: pointer;
     transition: background-color 0.3s;
     text-transform: uppercase;
@@ -1549,7 +1551,7 @@ footer {
 
 .visit-subtitle {
     font-family: var(--font-oxanium);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 0 10px 0;
@@ -1558,7 +1560,7 @@ footer {
 
 .visit-title {
     font-family: var(--font-big-shoulder);
-    font-size: 55px;
+    font-size: 72px;
     margin: 0 0 10px 0;
     text-transform: uppercase;
     line-height: 1;
@@ -1566,8 +1568,8 @@ footer {
 
 .visit-date {
     font-family: var(--font-big-shoulder);
-    font-size: 26px;
-    color: #D8467A;
+    font-size: 36px;
+    color: #C8175D;
     margin: 0 0 50px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1596,14 +1598,14 @@ footer {
     width: 150px;
     font-family: var(--font-big-shoulder);
     font-size: 24px;
-    color: #D8467A;
+    color: #C8175D;
     font-weight: 700;
 }
 
 .schedule-text {
     flex: 1;
     font-family: var(--font-oxanium);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -1666,8 +1668,8 @@ footer {
 
 .info-box-content p {
     font-family: var(--font-oxanium);
-    font-size: 14px;
-    color: #ccc;
+    font-size: 18px;
+    color: #FBF6EE;
     line-height: 1.6;
     margin: 0;
 }
@@ -1710,7 +1712,7 @@ footer {
 
 .donate-banner-left h2 {
     font-family: var(--font-big-shoulder);
-    font-size: 40px;
+    font-size: 56px;
     color: white;
     margin: 0;
     text-transform: uppercase;
@@ -1723,7 +1725,7 @@ footer {
     padding: 15px 40px;
     font-family: var(--font-big-shoulder);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 26px;
     cursor: pointer;
     text-transform: uppercase;
     transition: background-color 0.3s;
@@ -1768,7 +1770,7 @@ footer {
 
 .footer-brand p {
     font-family: var(--font-oxanium);
-    font-size: 13px;
+    font-size: 16px;
     color: #999;
     line-height: 1.6;
 }
@@ -1780,7 +1782,7 @@ footer {
 
 .footer-top h4 {
     font-family: var(--font-big-shoulder);
-    font-size: 22px;
+    font-size: 24px;
     color: #F2B705;
     margin: 0 0 25px 0;
     text-transform: uppercase;
@@ -1799,7 +1801,7 @@ footer {
 
 .footer-links a {
     font-family: var(--font-oxanium);
-    font-size: 14px;
+    font-size: 18px;
     color: #ccc;
     text-decoration: none;
     transition: color 0.3s;
@@ -1811,7 +1813,7 @@ footer {
 
 .footer-contact p {
     font-family: var(--font-oxanium);
-    font-size: 14px;
+    font-size: 18px;
     color: #ccc;
     margin: 0 0 15px 0;
 }
@@ -1850,19 +1852,19 @@ footer {
 
 .footer-bottom p {
     font-family: var(--font-oxanium);
-    font-size: 12px;
-    color: #666;
+    font-size: 16px;
+    color: #fff;
     margin: 0;
 }
 
 .footer-legal {
     font-family: var(--font-oxanium);
-    font-size: 12px;
-    color: #666;
+    font-size: 16px;
+    color: #fff;
 }
 
 .footer-legal a {
-    color: #666;
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s;
     margin: 0 10px;
@@ -1870,4 +1872,80 @@ footer {
 
 .footer-legal a:hover {
     color: white;
+}
+
+/* Animated Navbar */
+.navbar.animate-nav {
+    animation: navExpand 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes navExpand {
+    0% {
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    30% {
+        left: 50%;
+        right: 50%;
+        opacity: 1;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    100% {
+        left: 4%;
+        right: 4%;
+        opacity: 1;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.navbar.animate-nav .nav-links,
+.navbar.animate-nav .nav-actions,
+.navbar.animate-nav .menu-toggle {
+    opacity: 0;
+    animation: fadeInDelay 0.5s ease forwards;
+    animation-delay: 1.2s; 
+}
+
+.navbar.animate-nav .nav-logo {
+    opacity: 0;
+    transform: translateX(-50%) scale(0);
+    animation: popInLogo 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation-delay: 0.2s; 
+}
+
+@keyframes popInLogo {
+    0% { opacity: 0; transform: translateX(-50%) scale(0.5); }
+    100% { opacity: 1; transform: translateX(-50%) scale(1); }
+}
+
+@keyframes fadeInDelay {
+    to { opacity: 1; }
+}
+
+/* For mobile padding, ensure the animation target padding matches mobile if responsive */
+@media (max-width: 991px) {
+    @keyframes navExpand {
+        0% { left: 50%; right: 50%; opacity: 0; padding-left: 0; padding-right: 0; }
+        30% { left: 50%; right: 50%; opacity: 1; padding-left: 0; padding-right: 0; }
+        100% { left: 4%; right: 4%; opacity: 1; padding-left: 25px; padding-right: 25px; }
+    }
+}
+@media (max-width: 576px) {
+    @keyframes navExpand {
+        0% { left: 50%; right: 50%; opacity: 0; padding-left: 0; padding-right: 0; }
+        30% { left: 50%; right: 50%; opacity: 1; padding-left: 0; padding-right: 0; }
+        100% { left: 4%; right: 4%; opacity: 1; padding-left: 16px; padding-right: 16px; }
+    }
+}
+
+/* Animated Title */
+.hero-title .char {
+    display: inline-block;
+    white-space: pre;
+    opacity: 0;
 }

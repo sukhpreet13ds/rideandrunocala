@@ -29,7 +29,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
+            <nav className={`navbar ${isScrolled ? 'scrolled' : ''} animate-nav`}>
                 <div className="nav-links">
                     <a href="#about">About</a>
                     <a href="#activities">Activities</a>

@@ -17,8 +17,131 @@ import arena2 from '../assets/arena2.jpg';
 import arena3 from '../assets/arena3.jpg';
 import survivorLeft from '../assets/survivor-left.png';
 import amountBg from '../assets/amount-bg.jpg';
+import React, { useEffect, useRef } from 'react';
+import 'animate.css';
 
 const Home = () => {
+    const titleRef = useRef(null);
+
+    useEffect(() => {
+        if (!titleRef.current) return;
+        
+        const TEXT = titleRef.current;
+        const chars = [];
+        
+        const parts = ['A CELEBRATION', 'OF COURAGE,', 'IN MOTION.'];
+        TEXT.innerHTML = '';
+        
+        parts.forEach((part, index) => {
+            part.split('').forEach(ch => {
+                const s = document.createElement('span');
+                s.className = 'char';
+                s.style.display = 'inline-block';
+                s.style.whiteSpace = 'pre';
+                s.style.opacity = '0';
+                s.textContent = ch;
+                TEXT.appendChild(s);
+                chars.push(s);
+            });
+            if (index < parts.length - 1) {
+                TEXT.appendChild(document.createElement('br'));
+            }
+        });
+
+        let _raf = null;
+        function loop(onTick) {
+            cancelAnimationFrame(_raf);
+            function tick() { if (!onTick()) _raf = requestAnimationFrame(tick); }
+            _raf = requestAnimationFrame(tick);
+        }
+
+        const GRAVITY = 0.9, BOUNCE = 0.42;
+        const st = chars.map((_, i) => ({ pos: -(60 + i * 12), vel: 0, settled: false, op: 0, opv: 0 }));
+        let f = 0;
+
+        loop(() => {
+            f++;
+            let done = true;
+            chars.forEach((ch, i) => {
+                if (f < i * 4) { done = false; return; }
+                const s = st[i];
+                if (!s.settled) {
+                    s.vel += GRAVITY;
+                    s.pos += s.vel;
+                    if (s.pos >= 0) {
+                        s.pos = 0;
+                        s.vel *= -BOUNCE;
+                        if (Math.abs(s.vel) < 1.0) { s.vel = 0; s.settled = true; }
+                        else done = false;
+                    } else done = false;
+                }
+                s.opv += (1 - s.op) * 0.07; s.opv *= 0.78; s.op += s.opv;
+                ch.style.transform = `translateY(${s.pos}px)`;
+                ch.style.opacity = s.op;
+            });
+            return done;
+        });
+
+        return () => cancelAnimationFrame(_raf);
+    }, []);
+
+    useEffect(() => {
+        const zoomInSelectors = [
+            '.adventure-card', 
+            '.partner-card', 
+            '.story-card', 
+            '.event-card', 
+            '.stadium-card', 
+            '.ticket-card', 
+            '.sponsor-item', 
+            '.info-card'
+        ];
+        
+        const slideInUpSelectors = [
+            '.hero-description', 
+            '.stat-card', 
+            '.btn-register', 
+            '.btn-donate-alt', 
+            '.btn-contact', 
+            '.btn-adventure', 
+            '.btn-sponsorship-kit', 
+            '.btn-pill-pink',
+            '.ticket-register',
+            '.section-title', 
+            '.section-subtitle', 
+            '.hero-subtitle', 
+            '.story-description p',
+            '.why-paragraphs p', 
+            '.why-badge', 
+            '.quote', 
+            '.author',
+            '.survivor-right-content p',
+            '.survivor-title-wrap h2',
+            '.read-more-link'
+        ];
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const isZoom = zoomInSelectors.some(sel => entry.target.matches(sel));
+                    entry.target.style.visibility = 'visible';
+                    entry.target.classList.add('animate__animated');
+                    entry.target.classList.add(isZoom ? 'animate__zoomIn' : 'animate__slideInUp');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        const allSelectors = [...zoomInSelectors, ...slideInUpSelectors];
+        allSelectors.forEach(selector => {
+            document.querySelectorAll(selector).forEach(el => {
+                el.style.visibility = 'hidden';
+                observer.observe(el);
+            });
+        });
+
+        return () => observer.disconnect();
+    }, []);
     return (
         <>
             <div className="home-container" style={{ backgroundImage: `url(${bgImage})` }}>
@@ -31,7 +154,7 @@ const Home = () => {
                         <div className="hero-subtitle">
                             <span className="check-icon"><i className="fa-solid fa-check"></i></span> Ocala, Florida | October 31, 2026
                         </div>
-                        <h1 className="hero-title">
+                        <h1 className="hero-title" ref={titleRef}>
                             A CELEBRATION<br />OF COURAGE,<br />IN MOTION.
                         </h1>
                         <p className="hero-description">
@@ -47,7 +170,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="hero-image">
-                        <img src={rightImage} alt="Ride right" />
+                        <img src={rightImage} alt="Ride right" className="animate__animated animate__zoomIn" />
                     </div>
                 </div>
 
@@ -75,7 +198,7 @@ const Home = () => {
             <section className="about-event-section">
                 <div className="section-header text-center">
                     <h4 className="section-subtitle">ABOUT THE EVENT</h4>
-                    <h2 className="section-title">MAKING A DIFFERENCE</h2>
+                    <h2 className="section-title partners-title">MAKING A DIFFERENCE</h2>
                 </div>
                 <div className="about-event-grid">
                     <div className="event-card">
@@ -163,18 +286,18 @@ const Home = () => {
             <section className="partners-section">
                 <div className="section-header text-center">
                     <h4 className="section-subtitle">OUR PARTNERS</h4>
-                    <h2 className="section-title">OUR EVENT PARTNERS</h2>
+                    <h2 className="section-title partners-title">OUR EVENT PARTNERS</h2>
                     <p className="partners-description">With appreciation to the Florida Horse Park and The Horse Talk Show for helping bring this special day to life.</p>
                 </div>
                 
                 <div className="partners-grid">
                     <div className="partner-card">
-                        <img src={partner1} alt="Florida Horse Park" />
+                        <img src={partner2} alt="Florida Horse Park" />
                         <h5>Florida Horse Park</h5>
                         <p>Ocala, Florida</p>
                     </div>
                     <div className="partner-card">
-                        <img src={partner2} alt="The Horse Talk Show" />
+                        <img src={partner1} alt="The Horse Talk Show" />
                         <h5>The Horse Talk Show</h5>
                         <p>with Louisa Barton</p>
                     </div>
@@ -184,7 +307,7 @@ const Home = () => {
             <section className="adventure-section">
                 <div className="section-header text-center">
                     <h4 className="section-subtitle white-text">JOIN THE ACTION</h4>
-                    <h2 className="section-title white-text">CHOOSE YOUR ADVENTURE</h2>
+                    <h2 className="section-title white-text partners-title">CHOOSE YOUR ADVENTURE</h2>
                 </div>
                 
                 <div className="adventure-grid">
@@ -224,7 +347,7 @@ const Home = () => {
             <section className="stadium-section">
                 <div className="section-header text-center">
                     <h4 className="section-subtitle">IN THE ARENA</h4>
-                    <h2 className="section-title">SPECTACULAR STADIUM SHOWS</h2>
+                    <h2 className="section-title partners-title">SPECTACULAR STADIUM SHOWS</h2>
                 </div>
                 
                 <div className="stadium-grid">

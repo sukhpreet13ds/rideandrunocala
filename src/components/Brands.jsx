@@ -21,7 +21,7 @@ const Brands = () => {
         <section className="brands-section">
             <div className="section-header text-center">
                 <h4 className="section-subtitle">OUR PARTNERS</h4>
-                <h2 className="section-title">COMMITTED SPONSORS</h2>
+                <h2 className="section-title partners-title">COMMITTED SPONSORS</h2>
             </div>
 
             <div className="brands-container">
