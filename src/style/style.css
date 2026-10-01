@@ -1,11 +1,18 @@
 /* Navbar Styles */
 .top-banner {
+    display: none;
     background-color: #D8467A;
     text-align: center;
     color: white;
     padding: 5px 0;
     font-size: 16px;
     font-family: var(--font-oxanium);
+}
+
+@media (min-width: 992px) {
+    .top-banner {
+        display: block;
+    }
 }
 
 .navbar {
