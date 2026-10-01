@@ -62,9 +62,11 @@
     border-radius: 50%;
 }
 
-.nav-actions {
-    display: flex;
-    gap: 15px;
+@media (min-width: 992px) {
+    .nav-actions {
+        display: flex !important;
+        gap: 15px !important;
+    }
 }
 
 .btn-donate {
