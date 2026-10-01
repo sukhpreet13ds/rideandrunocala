@@ -284,17 +284,13 @@ body {
 
 /* 3. PORTRAIT TABLETS (Separate) */
 @media (min-width: 577px) and (max-width: 991px) {
-  .top-banner {
-    display: none !important;
-  }
-
   .navbar {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     flex-direction: row !important;
     position: fixed !important;
-    top: 20px !important;
+    top: 46px !important;
     left: 4% !important;
     right: 4% !important;
     padding: 10px 25px !important;
@@ -665,7 +661,7 @@ body {
 /*  4. MOBILE (Separate) */
 @media (max-width: 576px) {
   .top-banner {
-    display: none !important;
+    font-size: 12px !important;
   }
 
   .navbar {
@@ -674,7 +670,7 @@ body {
     align-items: center !important;
     flex-direction: row !important;
     position: fixed !important;
-    top: 16px !important;
+    top: 36px !important;
     left: 4% !important;
     right: 4% !important;
     padding: 7px 16px !important;
