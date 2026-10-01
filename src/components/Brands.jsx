@@ -15,6 +15,10 @@ import bronze2 from '../assets/bronze2.png';
 import bronze3 from '../assets/bronze3.png';
 import bronze4 from '../assets/bronze4.png';
 import bronze5 from '../assets/bronze5.png';
+import baywers from '../assets/baywers.jpeg';
+import dark from '../assets/dark.png';
+import loco from '../assets/loco.png';
+import hook from '../assets/hook.png';
 
 const Brands = () => {
     return (
@@ -40,6 +44,14 @@ const Brands = () => {
                         <div className="sponsor-item">
                             <div className="sponsor-img-wrapper"><img src={platinum3} alt="The Florida Horse Park Foundation" /></div>
                             <p>The Florida Horse Park Foundation</p>
+                        </div>
+                        <div className="sponsor-item">
+                            <div className="sponsor-img-wrapper"><img src={baywers} alt="Bayview Bins" /></div>
+                            <p>Bayview Bins</p>
+                        </div>
+                        <div className="sponsor-item">
+                            <div className="sponsor-img-wrapper"><img src={dark} alt="The Dark Horse Project" style={{ transform: 'scale(0.6)' }} /></div>
+                            <p>The Dark Horse Project</p>
                         </div>
                     </div>
                 </div>
@@ -87,12 +99,16 @@ const Brands = () => {
                             <div className="sponsor-img-wrapper"><img src={silver4} alt="Nature's Trail Leather Goods" /></div>
                             <p>Nature's Trail Leather Goods</p>
                         </div>
+                        <div className="sponsor-item">
+                            <div className="sponsor-img-wrapper"><img src={loco} alt="Loco Graphics" style={{ marginTop: '25px' }} /></div>
+                            <p>Loco Graphics</p>
+                        </div>
                     </div>
                 </div>
 
                 {/* Bronze Tier */}
                 <div className="sponsor-tier-card">
-                    <h3 className="sponsor-tier-title">BRONZE & FRIENDS - $1,000 & UNDER</h3>
+                    <h3 className="sponsor-tier-title">BRONZE SPONSORS - $1,000+</h3>
                     <div className="sponsor-grid bronze-grid">
                         <div className="sponsor-item">
                             <div className="sponsor-img-wrapper"><img src={bronze1} alt="Ocala Veterinary Clinic" /></div>
@@ -113,6 +129,17 @@ const Brands = () => {
                         <div className="sponsor-item">
                             <div className="sponsor-img-wrapper"><img src={bronze5} alt="Florida Trail Riders Alliance" /></div>
                             <p>Florida Trail Riders Alliance</p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Community/Friends Tier ($500) */}
+                <div className="sponsor-tier-card">
+                    <h3 className="sponsor-tier-title">FRIENDS SPONSORS - $500+</h3>
+                    <div className="sponsor-grid bronze-grid">
+                        <div className="sponsor-item">
+                            <div className="sponsor-img-wrapper"><img src={hook} alt="Hook Company" /></div>
+                            <p>Hook Company</p>
                         </div>
                     </div>
                 </div>

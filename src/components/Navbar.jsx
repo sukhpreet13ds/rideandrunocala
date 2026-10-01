@@ -6,6 +6,7 @@ import horseImg from '../assets/horse.png';
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isMoreOpen, setIsMoreOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -34,8 +35,18 @@ const Navbar = () => {
                     <a href="#about">About</a>
                     <a href="#activities">Activities</a>
                     <a href="#tickets">Tickets</a>
-                    <a href="#sponsors">Sponsors</a>
-                    <a href="#plan">Plan Your Visit</a>
+                    <a href="#sponsors" className="hide-on-laptop">Sponsors</a>
+                    <a href="#plan" className="hide-on-laptop">Plan Your Visit</a>
+                    
+                    <div className="nav-more-dropdown show-on-laptop">
+                        <button className="nav-more-btn" onClick={() => setIsMoreOpen(!isMoreOpen)}>
+                            <i className="fa-solid fa-grip-lines"></i>
+                        </button>
+                        <div className={`nav-more-menu ${isMoreOpen ? 'open' : ''}`}>
+                            <a href="#sponsors" onClick={() => setIsMoreOpen(false)}>Sponsors</a>
+                            <a href="#plan" onClick={() => setIsMoreOpen(false)}>Plan Your Visit</a>
+                        </div>
+                    </div>
                 </div>
                 <div className="nav-logo">
                     <img src={logo} alt="Ride and Run Ocala" />

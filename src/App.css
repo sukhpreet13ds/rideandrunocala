@@ -402,7 +402,8 @@ body {
 
   .about-event-grid,
   .story-cards,
-  .story-top {
+  .story-top,
+  .policies-container {
     flex-direction: column;
   }
 
@@ -448,6 +449,34 @@ body {
     box-sizing: border-box;
   }
 
+  .adventure-extra-info {
+    padding: 30px !important;
+  }
+
+  .adventure-extra-info h4 {
+    font-size: 22px !important;
+  }
+
+  .adventure-extra-info p {
+    font-size: 16px !important;
+  }
+
+  .accordion-header {
+    font-size: 17px !important;
+    padding: 15px !important;
+  }
+
+  .acc-intro {
+    font-size: 15px !important;
+  }
+
+  .acc-option h5 {
+    font-size: 18px !important;
+  }
+
+  .acc-list li {
+    font-size: 15px !important;
+  }
   .stadium-section {
     padding: 60px 5% !important;
     box-sizing: border-box !important;
@@ -600,6 +629,12 @@ body {
     font-size: 36px !important;
   }
 
+  .join-p {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+  }
+
+
   .event-card p {
     font-size: 20px !important;
   }
@@ -670,7 +705,7 @@ body {
     align-items: center !important;
     flex-direction: row !important;
     position: fixed !important;
-    top: 36px !important;
+    top: 45px !important;
     left: 4% !important;
     right: 4% !important;
     padding: 7px 16px !important;
@@ -907,6 +942,45 @@ body {
     box-sizing: border-box !important;
   }
 
+  .adventure-extra-info {
+    padding: 20px !important;
+  }
+
+  .adventure-extra-info h4 {
+    font-size: 20px !important;
+  }
+
+  .adventure-extra-info p {
+    font-size: 15px !important;
+  }
+
+  .accordion-header {
+    font-size: 16px !important;
+    padding: 15px 12px !important;
+  }
+  .accordion-content {
+    padding: 0 15px !important;
+  }
+
+  .accordion-content.open {
+    padding: 15px !important;
+    max-height: 4000px !important;
+  }
+  .acc-intro {
+    font-size: 14px !important;
+  }
+
+  .acc-option {
+    padding: 15px !important;
+  }
+
+  .acc-option h5 {
+    font-size: 16px !important;
+  }
+
+  .acc-list li, .acc-rates li {
+    font-size: 14px !important;
+  }
   .stadium-section {
     padding: 60px 5% !important;
     box-sizing: border-box !important;
@@ -939,9 +1013,42 @@ body {
     box-sizing: border-box !important;
   }
 
-  .extra-info-section {
+  .extra-info-section,
+  .policies-section {
     padding: 60px 5% !important;
     box-sizing: border-box !important;
+  }
+
+  .policies-container {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    gap: 16px !important;
+    padding-bottom: 10px !important;
+    scrollbar-width: none !important;
+  }
+
+  .policies-container::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .policy-block {
+    flex: 0 0 88% !important;
+    width: 88% !important;
+    max-width: 88% !important;
+    scroll-snap-align: center !important;
+    padding: 25px !important;
+    box-sizing: border-box !important;
+  }
+
+  .policy-block h4 {
+    font-size: 26px !important;
+  }
+
+  .policy-block p, .policy-block ul {
+    font-size: 15px !important;
   }
 
   .extra-grid-top {
@@ -952,6 +1059,10 @@ body {
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
+  }
+
+  .join-p {
+    font-size: 15px !important;
   }
 
   .quote {
@@ -1264,5 +1375,8 @@ body {
   }
   .stat-card h3 {
 font-size: 18px !important;
+}
+.marquee-content p{
+  font-size: 13px !important;
 }
 }

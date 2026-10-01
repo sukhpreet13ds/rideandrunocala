@@ -20,7 +20,7 @@ const Footer = () => {
                             </div>
                             <div className="schedule-item">
                                 <span className="schedule-time">10:00 AM -<br/>1:00 PM</span>
-                                <span className="schedule-text">Poker Trail Ride and Run/Walk/Ruck</span>
+                                <span className="schedule-text">Poker Ride and Run/Walk/Ruck</span>
                             </div>
                             <div className="schedule-item empty-time">
                                 <span className="schedule-time"></span>
@@ -77,6 +77,33 @@ const Footer = () => {
                         <h2>EVERY DOLLAR FIGHTS BREAST CANCER</h2>
                     </div>
                     <button className="btn-donate">DONATE NOW</button>
+                </div>
+            </section>
+
+            <section className="policies-section">
+                <div className="policies-container">
+                    <div className="policy-block">
+                        <div className="policy-icon"><i className="fa-solid fa-dog"></i></div>
+                        <h4>Dogs</h4>
+                        <p>Dogs must always be on a leash and under control of the handler at all times. Please clean up after your dog.</p>
+                    </div>
+
+                    <div className="policy-block">
+                        <div className="policy-icon"><i className="fa-solid fa-wheelchair"></i></div>
+                        <h4>Accessibility</h4>
+                        <p>The Florida Horse Park is a beautiful 500 acre open/air facility with mainly grass and sand surfaces. There is a roadway that runs through the park, but no protected surfaces. Sand surfaces surround the Main Arena. Parking areas are all covered in grass. Please take necessary precautions when navigating these areas. For further information please contact: <a href="mailto:info@rideandrunocala.org">info@rideandrunocala.org</a></p>
+                    </div>
+
+                    <div className="policy-block">
+                        <div className="policy-icon"><i className="fa-solid fa-circle-exclamation"></i></div>
+                        <h4>Event Policies</h4>
+                        <ul>
+                            <li>Liquor and recreational drugs are not allowed in the Florida Horse Park for the Celebration of Life Event.</li>
+                            <li>No smoking in the arenas, bleachers, stable areas or equine buildings.</li>
+                            <li>Dogs must always be on a leash and under control of the handler at all times. Please clean up after your dog.</li>
+                            <li>Dogs will not be permitted in the main arena and bleacher seating areas.</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 

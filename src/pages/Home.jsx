@@ -17,21 +17,23 @@ import arena2 from '../assets/arena2.jpg';
 import arena3 from '../assets/arena3.jpg';
 import survivorLeft from '../assets/survivor-left.png';
 import amountBg from '../assets/amount-bg.jpg';
-import React, { useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import 'animate.css';
 
 const Home = () => {
     const titleRef = useRef(null);
+    const [isBannerModalOpen, setIsBannerModalOpen] = useState(false);
+    const [isAccordionOpen, setIsAccordionOpen] = useState(false);
 
     useEffect(() => {
         if (!titleRef.current) return;
-        
+
         const TEXT = titleRef.current;
         const chars = [];
-        
+
         const parts = ['A CELEBRATION', 'OF COURAGE,', 'IN MOTION.'];
         TEXT.innerHTML = '';
-        
+
         parts.forEach((part, index) => {
             part.split('').forEach(ch => {
                 const s = document.createElement('span');
@@ -87,33 +89,33 @@ const Home = () => {
 
     useEffect(() => {
         const zoomInSelectors = [
-            '.adventure-card', 
-            '.partner-card', 
-            '.story-card', 
-            '.event-card', 
-            '.stadium-card', 
-            '.ticket-card', 
-            '.sponsor-item', 
+            '.adventure-card',
+            '.partner-card',
+            '.story-card',
+            '.event-card',
+            '.stadium-card',
+            '.ticket-card',
+            '.sponsor-item',
             '.info-card'
         ];
-        
+
         const slideInUpSelectors = [
-            '.hero-description', 
-            '.stat-card', 
-            '.btn-register', 
-            '.btn-donate-alt', 
-            '.btn-contact', 
-            '.btn-adventure', 
-            '.btn-sponsorship-kit', 
+            '.hero-description',
+            '.stat-card',
+            '.btn-register',
+            '.btn-donate-alt',
+            '.btn-contact',
+            '.btn-adventure',
+            '.btn-sponsorship-kit',
             '.btn-pill-pink',
             '.ticket-register',
-            '.section-title', 
-            '.section-subtitle', 
-            '.hero-subtitle', 
+            '.section-title',
+            '.section-subtitle',
+            '.hero-subtitle',
             '.story-description p',
-            '.why-paragraphs p', 
-            '.why-badge', 
-            '.quote', 
+            '.why-paragraphs p',
+            '.why-badge',
+            '.quote',
             '.author',
             '.survivor-right-content p',
             '.survivor-title-wrap h2',
@@ -145,9 +147,28 @@ const Home = () => {
     return (
         <>
             <div className="home-container" style={{ backgroundImage: `url(${bgImage})` }}>
-                <div className="top-banner">
-                    <p>Vfor All Participants, Spectators, Sponsors & Volunteers Before Entry.</p>
+                <div className="top-banner" onClick={() => setIsBannerModalOpen(true)}>
+                    <div className="marquee-wrapper">
+                        <div className="marquee-content">
+                            <p>IMPORTANT EVENT REQUIREMENTS: All participants, spectators, sponsors and volunteers must sign the Florida Agriculture & Horse Park Authority, Inc. Complete Release From Liability In Case of Injury or Loss, Waiver Indemnity Agreement before registering and entering the Florida Horse Park. Please read the Florida Horse Park Rules and Regulations to help ensure a safe and enjoyable event day. Horse trail riders must also sign the Celebration of Life Waiver and Liability Release Agreement.</p>
+                            <p>IMPORTANT EVENT REQUIREMENTS: All participants, spectators, sponsors and volunteers must sign the Florida Agriculture & Horse Park Authority, Inc. Complete Release From Liability In Case of Injury or Loss, Waiver Indemnity Agreement before registering and entering the Florida Horse Park. Please read the Florida Horse Park Rules and Regulations to help ensure a safe and enjoyable event day. Horse trail riders must also sign the Celebration of Life Waiver and Liability Release Agreement.</p>
+                        </div>
+                    </div>
                 </div>
+
+                {isBannerModalOpen && (
+                    <div className="banner-modal-overlay" onClick={() => setIsBannerModalOpen(false)}>
+                        <div className="banner-modal-content" onClick={e => e.stopPropagation()}>
+                            <button className="banner-modal-close" onClick={() => setIsBannerModalOpen(false)}>
+                                <i className="fa-solid fa-xmark"></i>
+                            </button>
+                            <h3>IMPORTANT EVENT REQUIREMENTS</h3>
+                            <p>All participants, spectators, sponsors and volunteers must sign the Florida Agriculture & Horse Park Authority, Inc. Complete Release From Liability In Case of Injury or Loss, Waiver Indemnity Agreement before registering and entering the Florida Horse Park.</p>
+                            <p>Please read the Florida Horse Park Rules and Regulations to help ensure a safe and enjoyable event day.</p>
+                            <p>Horse trail riders must also sign the Celebration of Life Waiver and Liability Release Agreement.</p>
+                        </div>
+                    </div>
+                )}
 
                 <div className="hero-section">
                     <div className="hero-content">
@@ -193,7 +214,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Song/>
+            <Song />
 
             <section className="about-event-section">
                 <div className="section-header text-center">
@@ -258,8 +279,8 @@ const Home = () => {
                 <div className="why-content-wrapper">
                     <div className="why-content">
                         <div className="why-badge">WHY WE STARTED RIDE & RUN</div>
-                        <h2 className="section-title left-align" style={{marginBottom: '30px'}}>A MESSAGE FROM THE FOUNDER</h2>
-                        
+                        <h2 className="section-title left-align" style={{ marginBottom: '30px' }}>A MESSAGE FROM THE FOUNDER</h2>
+
                         <div className="why-paragraphs">
                             <p>"While dealing with breast cancer, I dreamed about creating this joyous event as a way of fighting back and creating awareness. There is life after breast cancer, if diagnosed early.</p>
                             <p>"Fear" is a four-letter word that keeps many women from getting annual mammograms, doing self-exams or going to their doctors. Many walk around for years with lumps they can feel or are even visible. By allowing "fear" to rule their lives, they lessen their chances of survival. We hope they will see from the breast cancer survivors today, we are leading happy, healthy and productive lives.</p>
@@ -289,7 +310,7 @@ const Home = () => {
                     <h2 className="section-title partners-title">OUR EVENT PARTNERS</h2>
                     <p className="partners-description">With appreciation to the Florida Horse Park and The Horse Talk Show for helping bring this special day to life.</p>
                 </div>
-                
+
                 <div className="partners-grid">
                     <div className="partner-card">
                         <img src={partner2} alt="Florida Horse Park" />
@@ -309,19 +330,22 @@ const Home = () => {
                     <h4 className="section-subtitle white-text">JOIN THE ACTION</h4>
                     <h2 className="section-title white-text partners-title">CHOOSE YOUR ADVENTURE</h2>
                 </div>
-                
+
                 <div className="adventure-grid">
                     <div className="adventure-card">
-                        <img src={action1} alt="Poker Trail Ride" className="adventure-img" />
+                        <img src={action1} alt="Poker Ride" className="adventure-img" />
                         <div className="adventure-card-content">
                             <div className="adventure-card-title">
                                 <span className="adventure-icon"><i className="fa-solid fa-xmark"></i></span>
-                                <h3>POKER TRAIL RIDE</h3>
+                                <h3>Bring Your Own Horse Poker Trail Ride</h3>
                             </div>
+                            <p className='join-p'>Bring your horse and enjoy a five-mile poker ride along the Florida Greenway. The ride is open from 10:00 a.m. to 1:00 p.m. Minimum age is ten years old. Riders between the ages of ten and fifteen must be accompanied by their parent or responsible adult. Riders will collect their poker hand along the route while enjoying one of Ocala’s beautiful equestrian trails.</p>
+                            <p className='join-p'><b>Rider Requirements</b></p>
                             <ul className="adventure-features">
-                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> 5-mile scenic guided trail ride through oak hammocks</li>
-                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Draw poker hand cards at designated scenic checkpoints</li>
-                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Prizes for winning poker hands</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>Every horse must have a current negative Coggins certificate. Please bring proof with you; it will be checked when you arrive.</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Riders age 15 and younger must wear a properly fitted riding helmet, as required by Florida law.</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>All riders must wear riding boots, paddock shoes, or footwear with an adequate heel. Open-toed shoes are not permitted.</li>
+                            <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>Backpacks may not be worn during the trail ride.</li>
                             </ul>
                             <button className="btn-adventure">REGISTER TO RIDE</button>
                         </div>
@@ -331,14 +355,100 @@ const Home = () => {
                         <div className="adventure-card-content">
                             <div className="adventure-card-title">
                                 <span className="adventure-icon"><i className="fa-solid fa-shoe-prints"></i></span>
-                                <h3>FAMILY RUN / WALK / RUCK</h3>
+                                <h3>Family Run, Walk & Ruck Walk</h3>
                             </div>
+                            <p className='join-p'>Enjoy a scenic two-mile trail at your own pace between 10:00 a.m. and 1:00 p.m. This is a family-oriented activity, not a timed race. Run, walk, or bring your ruck pack and join the Ruck Walk.
+</p>
                             <ul className="adventure-features">
-                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Trail walk, run and ruck walk at your own pace</li>
-                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Fully stroller, wagon, and dog-friendly trail</li>
-                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> No motorized vehicles</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>Parents or guardians must accompany participants age 15 and younger.</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Strollers for young children are welcome.</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>Bicycles, scooters and motorized scooters, and motorized carts are not permitted on the route.
+                                </li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>Water stations will be available along the trail.
+                                </li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>We recommend wearing sunscreen, comfortable shoes, and a hat.
+                                </li>
                             </ul>
+                            <p className='join-p'>Veterans, bring your ruck packs and join us!</p>
                             <button className="btn-adventure">REGISTER TO RUN</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="adventure-extra-info">
+                    <h4>Your Poker Ride Adventure</h4>
+                    <p>
+                        <b>Poker Ride participants must enter through the Florida Horse Park entrance on Highway 475.</b> You will be directed to horse-trailer parking directly across from the trail entrance. Parking is free. Please be ready to show your registration and current negative Coggins certificate. <b>All required Florida Horse Park and Celebration of Life Waivers and Liability Release Agreements must be completed online before registration.</b>
+                    </p>
+                    <p>
+                        One poker hand is included with every adult registration. <b>Trail riders can purchase additional poker hands.</b> Registration will record the number of poker hands associated with each rider.
+                    </p>
+
+                    <div className="adventure-accordion">
+                        <button 
+                            className={`accordion-header ${isAccordionOpen ? 'open' : ''}`} 
+                            onClick={() => setIsAccordionOpen(!isAccordionOpen)}
+                        >
+                            Traveling With Your Horse? Overnight Stalls, RV Hookups & Camping
+                            <span className="accordion-icon"><i className={`fa-solid ${isAccordionOpen ? 'fa-minus' : 'fa-plus'}`}></i></span>
+                        </button>
+                        <div className={`accordion-content ${isAccordionOpen ? 'open' : ''}`}>
+                            <p className="acc-intro">
+                                <mark className="acc-highlight">All Trail Riders must enter the Florida Horse Park through the Highway 475 entrance.</mark><br/><br/>
+                                Trail Riders arriving the day before the Celebration of Life event may reserve overnight stabling and RV Hookup accommodations through one of the following two options. All reservations and payments are made directly with the facility.
+                            </p>
+
+                            <div className="acc-option">
+                                <h5>Option A: Florida Horse Park – Onsite of event</h5>
+                                <p className="acc-address">
+                                    11008 South Highway 475<br/>
+                                    Ocala, Florida 34480<br/>
+                                    <a href="tel:352-307-6699" className="acc-phone"><mark className="acc-highlight">352-307-6699</mark></a>
+                                </p>
+                                
+                                <div className="acc-rates">
+                                    <strong>Overnight rates:</strong>
+                                    <ul>
+                                        <li>RV hookup: <b>$45</b> per night</li>
+                                        <li>Stall: <b>$35</b> per night</li>
+                                        <li>Shavings: <b>$8</b> per bag, with a minimum of two bags per stall</li>
+                                    </ul>
+                                </div>
+
+                                <ol className="acc-list">
+                                    <li>Please call the Florida Horse Park directly for <mark className="acc-highlight">October 30th reservations</mark> for rental of stalls, shavings and RV hookups for Live-In quarters overnight trailer parking.</li>
+                                    <li>Payment will be made directly to Florida Horse Park at that time.</li>
+                                    <li>The cut off date for reservations and payment for stalls, RV hookups and shavings will be at <mark className="acc-highlight">12 Noon, Wednesday, October 28th</mark> with no exceptions.</li>
+                                    <li>Check-in time is earliest, 12 noon, but no later than 4pm on Oct. 30 to sign Florida Horse Park and Celebration of Life Waiver and Liability Releases before use of stalls and RV hookups.</li>
+                                    <li><mark className="acc-highlight">*Copy of Coggins must also be handed in at this time.</mark> (Please bring a copy of Coggins to be retained by Florida Horse Park. We will not have access to a copy machine at this time.)</li>
+                                    <li>There is ONLY access to stalls and RV hookups. NO ARENA ACCESS. (Undercover, Fiber or Grass).</li>
+                                    <li>You are welcome to go on the trails.</li>
+                                    <li>We appreciate you using only the RV hookup and stall allocated to you when your reservations and payment were made.</li>
+                                    <li>Stalls must be cleaned after the event or guest will be charged a $20 cleaning fee per stall.</li>
+                                </ol>
+                            </div>
+
+                            <div className="acc-option">
+                                <h5>Option B: Black Horse Ranch</h5>
+                                <p className="acc-address">
+                                    22651 SE Highway 42<br/>
+                                    Umatilla, FL 32784<br/>
+                                    <a href="tel:352-718-2270" className="acc-phone"><mark className="acc-highlight">(352) 718-2270</mark></a>
+                                </p>
+
+                                <ol className="acc-list">
+                                    <li>Anyone who is registered as a participant for the Celebration of Life event can camp at Black Horse Ranch from October 30 to November 1.</li>
+                                    <li>They must send us their ticket registration confirmation via email or a screenshot to our text line at <a href="tel:352-718-2270" className="acc-link"><mark className="acc-highlight">352-718-2270</mark></a>.</li>
+                                    <li>To book a reservation, Celebration of Life participants would text/call us at that same number <a href="tel:312-718-2270" className="acc-link"><mark className="acc-highlight">(312) 718-2270</mark></a>.</li>
+                                    <li>All information needed will be on our website <a href="http://blackhorseranch.com" target="_blank" rel="noopener noreferrer" className="acc-link">blackhorseranch.com</a>.</li>
+                                    <li>Participants need to reserve their space by <mark className="acc-highlight">12 noon, October 28th</mark>, directly through Black Horse Ranch at 352-718-2270.</li>
+                                    <li>Black Horse Ranch offers 30amp and 50amp sites, welcomes tent camping and horse trailer camping, and can accommodate XXL rigs no problem.</li>
+                                    <li>We have a kitchen and bathhouse (hot water, showers, laundry) on site that people are welcome to use.</li>
+                                    <li>We have trails off the property and arena on the property.</li>
+                                    <li>Outdoor individual paddocks, as well as, stalls.</li>
+                                    <li>We also have a pool and tack shop onsite.</li>
+                                </ol>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -347,9 +457,9 @@ const Home = () => {
             <section className="stadium-section">
                 <div className="section-header text-center">
                     <h4 className="section-subtitle">IN THE ARENA</h4>
-                    <h2 className="section-title partners-title">SPECTACULAR STADIUM SHOWS</h2>
+                    <h2 className="section-title partners-title">Exciting World Class Equestrian Performances</h2>
                 </div>
-                
+
                 <div className="stadium-grid">
                     <div className="stadium-card">
                         <img src={arena1} alt="Survivor Celebration" className="stadium-img" />
@@ -466,7 +576,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            
+
             <Brands />
         </>
     );
