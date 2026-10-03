@@ -216,7 +216,7 @@ const Home = () => {
             </div>
             <Song />
 
-            <section className="about-event-section">
+            <section id="about" className="about-event-section">
                 <div className="section-header text-center">
                     <h4 className="section-subtitle">ABOUT THE EVENT</h4>
                     <h2 className="section-title partners-title">MAKING A DIFFERENCE</h2>
@@ -304,7 +304,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="partners-section">
+            <section id="sponsors" className="partners-section">
                 <div className="section-header text-center">
                     <h4 className="section-subtitle">OUR PARTNERS</h4>
                     <h2 className="section-title partners-title">OUR EVENT PARTNERS</h2>
@@ -325,7 +325,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="adventure-section">
+            <section id="activities" className="adventure-section">
                 <div className="section-header text-center">
                     <h4 className="section-subtitle white-text">JOIN THE ACTION</h4>
                     <h2 className="section-title white-text partners-title">CHOOSE YOUR ADVENTURE</h2>
@@ -529,7 +529,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="tickets-section" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${amountBg})` }}>
+            <section id="tickets" className="tickets-section" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${amountBg})` }}>
                 <div className="tickets-banner">
                     <h3>IMPORTANT: ALL RIDERS & RUNNERS MUST ELECTRONICALLY SIGN A WAIVER BEFORE ENTRY.</h3>
                 </div>

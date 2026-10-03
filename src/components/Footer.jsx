@@ -6,7 +6,7 @@ import logo from '../assets/rideandocala.png';
 const Footer = () => {
     return (
         <footer>
-            <section className="visit-section" style={{ backgroundImage: `linear-gradient(rgba(31, 38, 51, 0.8), rgba(31, 38, 51, 0.8)), url(${directionBg})` }}>
+            <section id="plan" className="visit-section" style={{ backgroundImage: `linear-gradient(rgba(31, 38, 51, 0.8), rgba(31, 38, 51, 0.8)), url(${directionBg})` }}>
                 <div className="visit-container">
                     <div className="visit-left">
                         <h4 className="visit-subtitle">PLAN YOUR VISIT</h4>
@@ -116,12 +116,12 @@ const Footer = () => {
                     <div className="footer-links">
                         <h4>NAVIGATION</h4>
                         <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Activities</a></li>
-                            <li><a href="#">Tickets</a></li>
-                            <li><a href="#">Sponsors</a></li>
-                            <li><a href="#">Plan Visit</a></li>
-                            <li><a href="#">Donate</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#activities">Activities</a></li>
+                            <li><a href="#tickets">Tickets</a></li>
+                            <li><a href="#sponsors">Sponsors</a></li>
+                            <li><a href="#plan">Plan Visit</a></li>
+                            <li><a href="#donate">Donate</a></li>
                         </ul>
                     </div>
                     <div className="footer-contact">

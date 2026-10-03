@@ -2,6 +2,7 @@ import React from 'react';
 import platinum1 from '../assets/platinum1.png';
 import platinum2 from '../assets/platinum2.png';
 import platinum3 from '../assets/platinum3.png';
+import dillon from '../assets/dillon-logo.png';
 import gold1 from '../assets/gold1.png';
 import gold2 from '../assets/gold2.png';
 import gold3 from '../assets/gold3.png';
@@ -34,16 +35,20 @@ const Brands = () => {
                     <h3 className="sponsor-tier-title">PLATINUM SPONSORS - $10,000+</h3>
                     <div className="sponsor-grid platinum-grid">
                         <div className="sponsor-item">
+                            <div className="sponsor-img-wrapper"><img src={platinum3} alt="The Florida Horse Park Foundation" /></div>
+                            <p>The Florida Horse Park Foundation</p>
+                        </div>
+                        <div className="sponsor-item">
+                            <div className="sponsor-img-wrapper"><img src={dillon} alt="Dillon Media" style={{ backgroundColor: 'black', padding: '45px 10px' }} /></div>
+                            <p>Dillon Media</p>
+                        </div>
+                        <div className="sponsor-item">
                             <div className="sponsor-img-wrapper"><img src={platinum1} alt="Ocala Equine Hospital" /></div>
                             <p>Ocala Equine Hospital</p>
                         </div>
                         <div className="sponsor-item">
                             <div className="sponsor-img-wrapper"><img src={platinum2} alt="Gold Mark Farms" /></div>
                             <p>Gold Mark Farms</p>
-                        </div>
-                        <div className="sponsor-item">
-                            <div className="sponsor-img-wrapper"><img src={platinum3} alt="The Florida Horse Park Foundation" /></div>
-                            <p>The Florida Horse Park Foundation</p>
                         </div>
                         <div className="sponsor-item">
                             <div className="sponsor-img-wrapper"><img src={baywers} alt="Bayview Bins" /></div>
