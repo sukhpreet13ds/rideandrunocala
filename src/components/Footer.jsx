@@ -6,7 +6,14 @@ import logo from '../assets/rideandocala.png';
 const Footer = () => {
     return (
         <footer>
-            <section id="plan" className="visit-section" style={{ backgroundImage: `linear-gradient(rgba(31, 38, 51, 0.8), rgba(31, 38, 51, 0.8)), url(${directionBg})` }}>
+            <section
+                id="plan"
+                className="visit-section"
+                style={{
+                    backgroundImage: `linear-gradient(#ec4899cc, #db2777aa), url(${directionBg})`
+
+                }}
+            >
                 <div className="visit-container">
                     <div className="visit-left">
                         <h4 className="visit-subtitle">PLAN YOUR VISIT</h4>
@@ -19,11 +26,11 @@ const Footer = () => {
                                 <span className="schedule-text">Gates Open at The Florida Horse Park!</span>
                             </div>
                             <div className="schedule-item">
-                                <span className="schedule-time">10:00 AM -<br/>1:00 PM</span>
+                                <span className="schedule-time">10:00 AM -<br />1:00 PM</span>
                                 <span className="schedule-text">Poker Ride and Run/Walk/Ruck</span>
                             </div>
                             <div className="schedule-item empty-time">
-                                <span className="schedule-time"></span>
+                                <span className="schedule-time">1:00 PM</span>
                                 <span className="schedule-text">Featured Events and Survivor Celebration in the Main Arena</span>
                             </div>
                             <div className="schedule-item">
@@ -42,7 +49,7 @@ const Footer = () => {
                     </div>
                     <div className="visit-right">
                         <img src={directionImg} alt="Florida Horse Park Directions" className="direction-img" />
-                        
+
                         <div className="info-boxes">
                             <div className="info-box">
                                 <div className="info-box-icon"><i className="fa-solid fa-location-dot"></i></div>
@@ -69,6 +76,102 @@ const Footer = () => {
                     </div>
                 </div>
             </section>
+            <section className="press-section" style={{ padding: '80px 4%', backgroundColor: '#fcfcfc' }}>
+                <div className="section-header text-center" style={{ marginBottom: '50px' }}>
+                    <h4 className="section-subtitle" style={{ color: '#D8467A', fontFamily: 'var(--font-oxanium)', fontSize: '18px', fontWeight: 'bold', textTransform: 'uppercase', marginBottom: '15px', letterSpacing: '1px' }}>AS SEEN IN THE PRESS</h4>
+                    <h2 className="section-title" style={{ fontFamily: 'var(--font-big-shoulder)', fontSize: '48px', color: '#1B2431', textTransform: 'uppercase', lineHeight: '1.1', maxWidth: '800px', margin: '0 auto' }}>Celebrating the story, mission, and community behind the event.</h2>
+                </div>
+                <style>
+                    {`
+                    .press-container {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        gap: 30px;
+                        max-width: 1200px;
+                        margin: 0 auto;
+                    }
+                    .press-box {
+                        background: white;
+                        padding: 35px 30px;
+                        border-radius: 12px;
+                        box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+                        display: flex;
+                        flex-direction: column;
+                        transition: transform 0.3s ease, box-shadow 0.3s ease;
+                    }
+                    .press-box:hover {
+                        transform: translateY(-8px);
+                        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+                    }
+                    .press-head-title {
+                        font-family: var(--font-oxanium, sans-serif);
+                        font-size: 15px;
+                        color: #D8467A;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        margin-bottom: 12px;
+                        letter-spacing: 0.5px;
+                    }
+                    .press-title {
+                        font-family: var(--font-oxanium, sans-serif);
+                        font-size: 22px;
+                        color: #1B2431;
+                        font-weight: 700;
+                        margin-bottom: 25px;
+                        line-height: 1.4;
+                        flex-grow: 1;
+                    }
+                    .press-link {
+                        font-family: var(--font-oxanium, sans-serif);
+                        font-size: 16px;
+                        color: #1B2431;
+                        text-decoration: none;
+                        font-weight: 700;
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        transition: color 0.3s;
+                        width: fit-content;
+                    }
+                    .press-link:hover {
+                        color: #D8467A;
+                    }
+                    @media (max-width: 992px) {
+                        .press-container {
+                            grid-template-columns: repeat(2, 1fr);
+                        }
+                    }
+                    @media (max-width: 768px) {
+                        .press-container {
+                            grid-template-columns: 1fr;
+                        }
+                    }
+                    `}
+                </style>
+                <div className="press-container">
+                    <div className="press-box">
+                        <div className="press-head-title">Ocala Gazette</div>
+                        <div className="press-title">Celebration of Life: Ride and Run for Breast Cancer</div>
+                        <a className="press-link" href="https://www.ocalagazette.com/celebration-of-life-ride-and-run-for-breast-cancer/" target="_blank" rel="noopener noreferrer">
+                            READ MORE <i className="fa-solid fa-arrow-up-right-from-square" style={{ fontSize: '14px' }}></i>
+                        </a>
+                    </div>
+                    <div className="press-box">
+                        <div className="press-head-title">Elite Equestrian Magazine</div>
+                        <div className="press-title">How I Found Peace, Happiness, and Joy Through Breast Cancer</div>
+                        <a className="press-link" href="https://eliteequestrianmagazine.com/how-i-found-peace-happiness-and-joy-through-breast-cancer/" target="_blank" rel="noopener noreferrer">
+                            READ MORE <i className="fa-solid fa-arrow-up-right-from-square" style={{ fontSize: '14px' }}></i>
+                        </a>
+                    </div>
+                    <div className="press-box">
+                        <div className="press-head-title">Elite Equestrian Magazine</div>
+                        <div className="press-title">Celebration of Life: Ride and Run for Breast Cancer</div>
+                        <a className="press-link" href="https://eliteequestrianmagazine.com/celebration-of-life-ride-and-run-for-breast-cancer/" target="_blank" rel="noopener noreferrer">
+                            READ MORE <i className="fa-solid fa-arrow-up-right-from-square" style={{ fontSize: '14px' }}></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
 
             <section className="donate-banner">
                 <div className="donate-banner-container">
@@ -76,7 +179,7 @@ const Footer = () => {
                         <span className="donate-icon"><i className="fa-solid fa-xmark"></i></span>
                         <h2>EVERY DOLLAR FIGHTS BREAST CANCER</h2>
                     </div>
-                    <button className="btn-donate">DONATE NOW</button>
+                    <a className='donate-link' href='https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-22195' target='_blank' rel='noopener noreferrer'><button className="btn-donate">DONATE NOW</button></a>
                 </div>
             </section>
 
@@ -91,7 +194,9 @@ const Footer = () => {
                     <div className="policy-block">
                         <div className="policy-icon"><i className="fa-solid fa-wheelchair"></i></div>
                         <h4>Accessibility</h4>
-                        <p>The Florida Horse Park is a beautiful 500 acre open/air facility with mainly grass and sand surfaces. There is a roadway that runs through the park, but no protected surfaces. Sand surfaces surround the Main Arena. Parking areas are all covered in grass. Please take necessary precautions when navigating these areas. For further information please contact: <a href="mailto:info@rideandrunocala.org">info@rideandrunocala.org</a></p>
+                        <p>The Florida Horse Park is a beautiful 500 acre open/air facility with mainly grass and sand surfaces. There is a roadway that runs through the park, but no protected surfaces. Sand surfaces surround the Main Arena. Parking areas are all covered in grass. Please take necessary precautions when navigating these areas. For further information please contact: <a style={{color:"#C8175D", textDecoration: "none"}} href="mailto:info@rideandrunocala.org">
+                            info@rideandrunocala.org
+                        </a></p>
                     </div>
 
                     <div className="policy-block">
@@ -121,12 +226,14 @@ const Footer = () => {
                             <li><a href="#tickets">Tickets</a></li>
                             <li><a href="#sponsors">Sponsors</a></li>
                             <li><a href="#plan">Plan Visit</a></li>
-                            <li><a href="#donate">Donate</a></li>
+                            <li><a href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-22195" target='_blank'>Donate</a></li>
                         </ul>
                     </div>
                     <div className="footer-contact">
                         <h4>CONTACT INFO</h4>
-                        <p>Email: info@rideandrunocala.org</p>
+                        <p>   <a style={{color:"inherit", textDecoration: "none"}} href="mailto:info@rideandrunocala.org">
+                            info@rideandrunocala.org
+                        </a></p>
                         <p>Address: Ocala, Florida (Horse park)</p>
                     </div>
                     <div className="footer-social">
@@ -138,7 +245,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="footer-bottom">
                     <p>Copyright © 2026 Celebration of Life Ride and Run for Breast Cancer, Inc. All Rights Reserved.</p>
                     <div className="footer-legal">

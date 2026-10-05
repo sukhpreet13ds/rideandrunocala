@@ -14,13 +14,13 @@ import action1 from '../assets/action1.jpg';
 import action2 from '../assets/action2.jpg';
 import arena1 from '../assets/arena1.jpg';
 import arena2 from '../assets/arena2.jpg';
-import arena3 from '../assets/arena3.jpg';
-import survivorLeft from '../assets/survivor-left.png';
+import arena3 from '../assets/grande.jpg';
+import survivorLeft from '../assets/NewSurvivorMedal.jpg';
 import amountBg from '../assets/amount-bg.jpg';
 import React, { useState, useEffect, useRef } from 'react';
 import 'animate.css';
 
-const Home = () => {
+const Home = ({ openRegistration }) => {
     const titleRef = useRef(null);
     const [isBannerModalOpen, setIsBannerModalOpen] = useState(false);
     const [isAccordionOpen, setIsAccordionOpen] = useState(false);
@@ -150,8 +150,8 @@ const Home = () => {
                 <div className="top-banner" onClick={() => setIsBannerModalOpen(true)}>
                     <div className="marquee-wrapper">
                         <div className="marquee-content">
-                            <p>IMPORTANT EVENT REQUIREMENTS: All participants, spectators, sponsors and volunteers must sign the Florida Agriculture & Horse Park Authority, Inc. Complete Release From Liability In Case of Injury or Loss, Waiver Indemnity Agreement before registering and entering the Florida Horse Park. Please read the Florida Horse Park Rules and Regulations to help ensure a safe and enjoyable event day. Horse trail riders must also sign the Celebration of Life Waiver and Liability Release Agreement.</p>
-                            <p>IMPORTANT EVENT REQUIREMENTS: All participants, spectators, sponsors and volunteers must sign the Florida Agriculture & Horse Park Authority, Inc. Complete Release From Liability In Case of Injury or Loss, Waiver Indemnity Agreement before registering and entering the Florida Horse Park. Please read the Florida Horse Park Rules and Regulations to help ensure a safe and enjoyable event day. Horse trail riders must also sign the Celebration of Life Waiver and Liability Release Agreement.</p>
+                            <p><span className='req_title'>IMPORTANT EVENT REQUIREMENTS: </span> All participants, spectators, sponsors and volunteers must sign the Florida Agriculture & Horse Park Authority, Inc. Complete Release From Liability In Case of Injury or Loss, Waiver Indemnity Agreement before registering and entering the Florida Horse Park. Please read the Florida Horse Park Rules and Regulations to help ensure a safe and enjoyable event day. Horse trail riders must also sign the Celebration of Life Waiver and Liability Release Agreement.</p>
+                            <p><span className='req_title'>IMPORTANT EVENT REQUIREMENTS: </span> All participants, spectators, sponsors and volunteers must sign the Florida Agriculture & Horse Park Authority, Inc. Complete Release From Liability In Case of Injury or Loss, Waiver Indemnity Agreement before registering and entering the Florida Horse Park. Please read the Florida Horse Park Rules and Regulations to help ensure a safe and enjoyable event day. Horse trail riders must also sign the Celebration of Life Waiver and Liability Release Agreement.</p>
                         </div>
                     </div>
                 </div>
@@ -173,21 +173,27 @@ const Home = () => {
                 <div className="hero-section">
                     <div className="hero-content">
                         <div className="hero-subtitle">
-                            <span className="check-icon"><i className="fa-solid fa-check"></i></span> Ocala, Florida | October 31, 2026
-                        </div>
-                        <h1 className="hero-title" ref={titleRef}>
+                            <span className="check-icon">
+                                <i className="fa-solid fa-check"></i>
+                            </span>
+                            <span className="flow-text">
+                                Ocala, Florida | October 31, 2026
+                            </span>
+                        </div><h1 className="hero-title" ref={titleRef}>
                             A CELEBRATION<br />OF COURAGE,<br />IN MOTION.
                         </h1>
                         <p className="hero-description">
                             A family-friendly day at Florida Horse Park honoring breast cancer survivors and raising funds for breast cancer research at Moffitt Cancer Center and UF Health Cancer Institute.
                         </p>
                         <div className="hero-buttons">
-                            <button className="btn-register">
+                            <button className="btn-register" onClick={openRegistration}>
                                 <span className="icon"><i className="fa-solid fa-file-pen"></i></span> Register for the Event
                             </button>
+                            <a className='donate-link' href='https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-22195' target='_blank' rel='noopener noreferrer'>
                             <button className="btn-donate-alt">
                                 <span className="icon"><i className="fa-solid fa-hand-holding-dollar"></i></span> Donate Instead
                             </button>
+                            </a>
                         </div>
                     </div>
                     <div className="hero-image">
@@ -197,21 +203,22 @@ const Home = () => {
 
                 <div className="stats-section">
                     <div className="stat-card">
-                        <h3>$35 / $10</h3>
-                        <p>Adults - $35 | Children ages 4-12 - $10<br />Children age 3 and under free</p>
+                        <h3>Adult - $35</h3>
+                        <h3>Children ages 4-12 - $10</h3>
+                        <p>Children age 3 and under free</p>
                     </div>
                     <div className="stat-card">
                         <h3>2 Beneficiaries</h3>
-                        <p>Moffitt Cancer Center & UF Health Cancer Institute</p>
+                        <p>Moffitt Cancer Center <br/>UF Health Cancer Institute</p>
                     </div>
                     <div className="stat-card">
-                        <h3>5 & 2 mi</h3>
+                        <h3>5 & 2 mile</h3>
                         <p>Poker ride and family run/walk/ruck routes</p>
                     </div>
-                    <div className="stat-card">
+                    {/* <div className="stat-card">
                         <h3>501(c)(3)</h3>
                         <p>Nonprofit organization (pending)</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <Song />
@@ -235,7 +242,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="text-center">
+                   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@rideandrunocala.org" target="_blank" rel="noopener noreferrer">
                     <button className="btn-contact">CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG</button>
+                   </a>
                 </div>
             </section>
 
@@ -294,17 +303,19 @@ const Home = () => {
                                 <h3>Adrienne Skolnik</h3>
                                 <h4>Founder, President and Chairwoman</h4>
                                 <p>Celebration of Life, Ride and Run for Breast Cancer, Inc.</p>
-                                <p className="small-text">A 501(c)(3) nonprofit organization (pending)</p>
+                                {/* <p className="small-text">A 501(c)(3) nonprofit organization (pending)</p> */}
                             </div>
                             <div className="founder-action">
-                                <button className="btn-contact">CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG</button>
+                                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@rideandrunocala.org" target="_blank" rel="noopener noreferrer">
+                    <button className="btn-contact">CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG</button>
+                   </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="sponsors" className="partners-section">
+            <section className="partners-section">
                 <div className="section-header text-center">
                     <h4 className="section-subtitle">OUR PARTNERS</h4>
                     <h2 className="section-title partners-title">OUR EVENT PARTNERS</h2>
@@ -345,9 +356,9 @@ const Home = () => {
                                 <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>Every horse must have a current negative Coggins certificate. Please bring proof with you; it will be checked when you arrive.</li>
                                 <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Riders age 15 and younger must wear a properly fitted riding helmet, as required by Florida law.</li>
                                 <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>All riders must wear riding boots, paddock shoes, or footwear with an adequate heel. Open-toed shoes are not permitted.</li>
-                            <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>Backpacks may not be worn during the trail ride.</li>
+                                <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>Backpacks may not be worn during the trail ride.</li>
                             </ul>
-                            <button className="btn-adventure">REGISTER TO RIDE</button>
+                            <button className="btn-adventure" onClick={openRegistration}>REGISTER TO RIDE</button>
                         </div>
                     </div>
                     <div className="adventure-card">
@@ -358,7 +369,7 @@ const Home = () => {
                                 <h3>Family Run, Walk & Ruck Walk</h3>
                             </div>
                             <p className='join-p'>Enjoy a scenic two-mile trail at your own pace between 10:00 a.m. and 1:00 p.m. This is a family-oriented activity, not a timed race. Run, walk, or bring your ruck pack and join the Ruck Walk.
-</p>
+                            </p>
                             <ul className="adventure-features">
                                 <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span>Parents or guardians must accompany participants age 15 and younger.</li>
                                 <li><span className="check-icon-pink"><i className="fa-solid fa-check"></i></span> Strollers for young children are welcome.</li>
@@ -370,7 +381,7 @@ const Home = () => {
                                 </li>
                             </ul>
                             <p className='join-p'>Veterans, bring your ruck packs and join us!</p>
-                            <button className="btn-adventure">REGISTER TO RUN</button>
+                            <button className="btn-adventure" onClick={openRegistration}>REGISTER TO RUN</button>
                         </div>
                     </div>
                 </div>
@@ -385,8 +396,8 @@ const Home = () => {
                     </p>
 
                     <div className="adventure-accordion">
-                        <button 
-                            className={`accordion-header ${isAccordionOpen ? 'open' : ''}`} 
+                        <button
+                            className={`accordion-header ${isAccordionOpen ? 'open' : ''}`}
                             onClick={() => setIsAccordionOpen(!isAccordionOpen)}
                         >
                             Traveling With Your Horse? Overnight Stalls, RV Hookups & Camping
@@ -394,18 +405,18 @@ const Home = () => {
                         </button>
                         <div className={`accordion-content ${isAccordionOpen ? 'open' : ''}`}>
                             <p className="acc-intro">
-                                <mark className="acc-highlight">All Trail Riders must enter the Florida Horse Park through the Highway 475 entrance.</mark><br/><br/>
+                                <mark className="acc-highlight">All Trail Riders must enter the Florida Horse Park through the Highway 475 entrance.</mark><br /><br />
                                 Trail Riders arriving the day before the Celebration of Life event may reserve overnight stabling and RV Hookup accommodations through one of the following two options. All reservations and payments are made directly with the facility.
                             </p>
 
                             <div className="acc-option">
                                 <h5>Option A: Florida Horse Park – Onsite of event</h5>
                                 <p className="acc-address">
-                                    11008 South Highway 475<br/>
-                                    Ocala, Florida 34480<br/>
+                                    11008 South Highway 475<br />
+                                    Ocala, Florida 34480<br />
                                     <a href="tel:352-307-6699" className="acc-phone"><mark className="acc-highlight">352-307-6699</mark></a>
                                 </p>
-                                
+
                                 <div className="acc-rates">
                                     <strong>Overnight rates:</strong>
                                     <ul>
@@ -431,8 +442,8 @@ const Home = () => {
                             <div className="acc-option">
                                 <h5>Option B: Black Horse Ranch</h5>
                                 <p className="acc-address">
-                                    22651 SE Highway 42<br/>
-                                    Umatilla, FL 32784<br/>
+                                    22651 SE Highway 42<br />
+                                    Umatilla, FL 32784<br />
                                     <a href="tel:352-718-2270" className="acc-phone"><mark className="acc-highlight">(352) 718-2270</mark></a>
                                 </p>
 
@@ -481,7 +492,7 @@ const Home = () => {
                         <img src={arena3} alt="Grande Liberte" className="stadium-img" />
                         <div className="stadium-card-content">
                             <h3>GRANDE LIBERTÉ</h3>
-                            <p>Sylvia Zerbini presents Grande Liberté with her Arabian horses, joined by The Jewell Twins violinists. Get ready for a unique mix of horses, music, and live performance in the arena!</p>
+                            <p>Sylvia Zerbini presents Grande Liberté with her Arabian horses, joined by The Jewell Twins violinists.  Get ready for a unique mix of horses, music, and equestrian artistry in the main arena.</p>
                             <a href="#" className="read-more-link">READ MORE</a>
                         </div>
                     </div>
@@ -497,6 +508,7 @@ const Home = () => {
                         </div>
                         <p className="info-bold-text">Make sure to bring the drawing tickets you received with your registration.</p>
                         <ul className="info-list">
+                            <li>Win prizes from local businesses</li>
                             <li>Poker Hand Trail Ride Prize</li>
                             <li>Prizes for best Halloween costume, adult, child and horses.</li>
                         </ul>
@@ -524,6 +536,9 @@ const Home = () => {
                             <h2>SURVIVORS GOLD MEDAL</h2>
                         </div>
                         <p>All breast cancer survivors will receive as our special gift, the "Survivor Gold Medal." For they are all winners having fought this battle and won!</p>
+                        <p style={{ fontWeight: "bold", color: "#c3277b" }}>Are you a breast cancer survivor?<br />
+                            Please check the box so you can receive the Survivor Gold Medal
+                        </p>
                         <button className="btn-pill-pink">HONORING EVERY SURVIVOR</button>
                     </div>
                 </div>
@@ -540,7 +555,7 @@ const Home = () => {
                             <h2>$35</h2>
                             <p>Includes (1) Poker Hand & Event T-shirt, Drawing Ticket</p>
                         </div>
-                        <div className="ticket-register">
+                        <div className="ticket-register"  onClick={openRegistration} style={{cursor: 'pointer'}}>
                             <span>REGISTER</span>
                         </div>
                     </div>
@@ -550,7 +565,7 @@ const Home = () => {
                             <h2>$35</h2>
                             <p>Includes Event T-Shirt, Drawing Ticket</p>
                         </div>
-                        <div className="ticket-register">
+                        <div className="ticket-register" onClick={openRegistration} style={{cursor: 'pointer'}}>
                             <span>REGISTER</span>
                         </div>
                     </div>
@@ -560,17 +575,25 @@ const Home = () => {
                             <h2>$35</h2>
                             <p>Includes Event T-Shirt, Drawing Ticket</p>
                         </div>
-                        <div className="ticket-register">
+                        <div className="ticket-register" onClick={openRegistration} style={{cursor: 'pointer'}}>
                             <span>REGISTER</span>
                         </div>
                     </div>
                     <div className="ticket-card">
                         <div className="ticket-content">
-                            <h4>Children 4-12</h4>
-                            <h2>$10</h2>
-                            <p>Under 3 Free</p>
+                            <div style={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
+                                <div>
+                                    <h4>Adults</h4>
+                                    <h2>$35</h2>
+                                </div>
+                                <div>
+                                    <h4>Children 4-12</h4>
+                                    <h2>$10</h2>
+                                </div>
+                            </div>
+                            <p>Children 3 & Under 3 Free</p>
                         </div>
-                        <div className="ticket-register">
+                        <div className="ticket-register" onClick={openRegistration} style={{cursor: 'pointer'}}>
                             <span>REGISTER</span>
                         </div>
                     </div>

@@ -1,0 +1,25 @@
+REGISTRATION WORKFLOW needs to be: fill click register>pdfs>esign>pick registration option>pay with stripe>admin notification 
+
+there are multiple options for entry into the event
+the end user will receive a notification and use it for entry
+
+Step 1 Click on Register for Event
+Step 2 Pop Up Shows Up - Explaining that you have to sign the waiver before you can register for the event
+Step 3 - Once filled out waiver, there will be an esignature required before directing to the purchase form - this purchase form will have the option to choose their entry option and how many tickets they want
+Step 4 - they will pay through Stripe, the end user will receive an email notification with their purchase and details about entry - admin will get email notification, which includes the PDFs
+
+For The Poker Ride (use the long PDF - PokerRideWaiver)
+Add a checkbox to this form only: 'I have read the AEA guidelines' on page 3
+
+For The Walk Run Ruck (use the short PDF, 3 pages total, AllParticipantsWaiver)
+
+General Admission Tickets (use the short PDF, 3 pages total, AllParticipantsWaiver)
+
+There should be a digital signature of Adrienne’s at the bottom of PDFs in the Stable Signer section 
+
+Need to add a checkbox on all registration forms: if they are a breast cancer survivor
+
+Are you a breast cancer survivor? Please check the box to receive the Survivor Gold Medal as our gift. 
+☐ Yes
+
+

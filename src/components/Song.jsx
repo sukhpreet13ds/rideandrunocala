@@ -31,7 +31,7 @@ const Song = () => {
                         </div>
                     ) : (
                         <iframe 
-                            src="https://www.youtube.com/embed/pUOCO6aTL5I?si=2zBeWaf9oZfqFE2R&autoplay=1" 
+                             src="https://www.youtube.com/embed/pUOCO6aTL5I?si=2zBeWaf9oZfqFE2R&autoplay=1&start=0&end=234"
                             title="YouTube video player" 
                             frameBorder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

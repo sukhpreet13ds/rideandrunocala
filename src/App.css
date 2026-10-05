@@ -477,6 +477,7 @@ body {
   .acc-list li {
     font-size: 15px !important;
   }
+
   .stadium-section {
     padding: 60px 5% !important;
     box-sizing: border-box !important;
@@ -688,7 +689,8 @@ body {
   .visit-date {
     font-size: 28px !important;
   }
-  .donate-banner-left h2{
+
+  .donate-banner-left h2 {
     font-size: 40px !important;
   }
 }
@@ -768,7 +770,14 @@ body {
   }
 
   .hero-subtitle {
+    font-size: 19px !important;
     justify-content: center !important;
+  }
+
+  .check-icon {
+    width: 22px !important;
+    height: 22px !important;
+    font-size: 12px !important;
   }
 
   .hero-buttons {
@@ -869,7 +878,7 @@ body {
   }
 
   .why-left-image {
-    min-height: 300px !important;
+    min-height: 435px !important;
   }
 
   .why-content-wrapper {
@@ -958,6 +967,7 @@ body {
     font-size: 16px !important;
     padding: 15px 12px !important;
   }
+
   .accordion-content {
     padding: 0 15px !important;
   }
@@ -966,6 +976,7 @@ body {
     padding: 15px !important;
     max-height: 4000px !important;
   }
+
   .acc-intro {
     font-size: 14px !important;
   }
@@ -978,9 +989,11 @@ body {
     font-size: 16px !important;
   }
 
-  .acc-list li, .acc-rates li {
+  .acc-list li,
+  .acc-rates li {
     font-size: 14px !important;
   }
+
   .stadium-section {
     padding: 60px 5% !important;
     box-sizing: border-box !important;
@@ -1047,7 +1060,8 @@ body {
     font-size: 26px !important;
   }
 
-  .policy-block p, .policy-block ul {
+  .policy-block p,
+  .policy-block ul {
     font-size: 15px !important;
   }
 
@@ -1373,12 +1387,14 @@ body {
   .donate-banner .btn-donate {
     font-size: 24px !important;
   }
+
   .stat-card h3 {
-font-size: 18px !important;
-}
-.marquee-content p{
-  font-size: 13px !important;
-}
+    font-size: 18px !important;
+  }
+
+  .marquee-content p {
+    font-size: 13px !important;
+  }
 
   .contact-modal-content {
     padding: 20px;
@@ -1396,5 +1412,20 @@ font-size: 18px !important;
   .btn-contact-submit {
     font-size: 14px;
     padding: 10px;
+  }
+.sponsor-page-container {
+padding-top: 150px !important;
+}
+.sponsor-page-title {
+    font-size: 32px !important;
+  }
+  .sponsor-page-subtitle {
+    font-size: 22px !important;
+  }
+  .sponsor-page-section-title {
+    font-size: 28px !important;
+  }
+  .sponsor-page-footer h2 {
+    font-size: 28px !important;
   }
 }

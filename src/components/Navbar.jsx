@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import '../style/style.css';
 import logo from '../assets/rideandocala.png';
 import horseImg from '../assets/horse.png';
+import {Link} from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({ openRegistration }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMoreOpen, setIsMoreOpen] = useState(false);
@@ -38,7 +39,7 @@ const Navbar = () => {
                     <a href="#tickets">Tickets</a>
                     <a href="#sponsors" className="hide-on-laptop">Sponsors</a>
                     <a href="#plan" className="hide-on-laptop">Plan Your Visit</a>
-                    
+
                     <div className="nav-more-dropdown show-on-laptop">
                         <button className="nav-more-btn" onClick={() => setIsMoreOpen(!isMoreOpen)}>
                             <i className="fa-solid fa-grip-lines"></i>
@@ -51,14 +52,16 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="nav-logo">
-                    <img src={logo} alt="Ride and Run Ocala" />
+                    <Link to="/"><img src={logo} alt="Ride and Run Ocala" /></Link>
                 </div>
                 <div className="nav-actions">
                     <a href="#" className="nav-contact-desktop hide-on-laptop" onClick={(e) => { e.preventDefault(); setIsContactOpen(true); }} style={{ color: 'var(--primary-color)', textDecoration: 'none', fontWeight: 'bold', fontSize: '18px', marginRight: '20px', fontFamily: 'var(--font-oxanium)', display: 'flex', alignItems: 'center', transition: 'color 0.3s' }} onMouseOver={(e) => e.target.style.color = '#a0124b'} onMouseOut={(e) => e.target.style.color = 'var(--primary-color)'}>Contact Us</a>
-                    <button className="btn-donate">
-                        <span className="icon"><i className="fa-solid fa-hand-holding-dollar"></i></span> DONATE
-                    </button>
-                    <button className="btn-register-outline">
+                    <a className='donate-link' href='https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-22195' target='_blank' rel='noopener noreferrer'>
+                        <button className="btn-donate">
+                            <span className="icon"><i className="fa-solid fa-hand-holding-dollar"></i></span> DONATE
+                        </button>
+                    </a>
+                    <button className="btn-register-outline" onClick={openRegistration}>
                         <span className="icon"><i className="fa-solid fa-file-pen"></i></span> REGISTER FOR THE EVENT
                     </button>
                 </div>
@@ -68,8 +71,8 @@ const Navbar = () => {
             </nav>
 
             {/* Mobile Menu Panel Sidebar */}
-            <div 
-                className={`menu-sidebar-overlay ${isMenuOpen ? 'open' : ''}`} 
+            <div
+                className={`menu-sidebar-overlay ${isMenuOpen ? 'open' : ''}`}
                 onClick={closeMenu}
             ></div>
 
@@ -93,10 +96,12 @@ const Navbar = () => {
                     </div>
 
                     <div className="menu-sidebar-actions">
-                        <button className="btn-donate" onClick={closeMenu}>
-                            <span className="icon"><i className="fa-solid fa-hand-holding-dollar"></i></span> DONATE
-                        </button>
-                        <button className="btn-register-outline" onClick={closeMenu}>
+                        <a className='donate-link' href='https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-22195' target='_blank' rel='noopener noreferrer'>
+                            <button className="btn-donate" onClick={closeMenu}>
+                                <span className="icon"><i className="fa-solid fa-hand-holding-dollar"></i></span> DONATE
+                            </button>
+                        </a>
+                        <button className="btn-register-outline" onClick={() => { closeMenu(); openRegistration(); }}>
                             <span className="icon"><i className="fa-solid fa-file-pen"></i></span> REGISTER FOR THE EVENT
                         </button>
                     </div>
