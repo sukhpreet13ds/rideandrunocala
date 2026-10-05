@@ -2410,6 +2410,24 @@ footer {
         30% { left: 50%; right: 50%; opacity: 1; padding-left: 0; padding-right: 0; }
         100% { left: 4%; right: 4%; opacity: 1; padding-left: 16px; padding-right: 16px; }
     }
+
+    /* CRITICAL: cancel the fadeInDelay animation for nav-actions on mobile
+       so it never becomes visible regardless of animation state */
+    .navbar.animate-nav .nav-actions,
+    .nav-actions {
+        display: none !important;
+        opacity: 0 !important;
+        animation: none !important;
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        position: absolute !important;
+        pointer-events: none !important;
+        flex: 0 0 0 !important;
+        max-width: 0 !important;
+        max-height: 0 !important;
+    }
 }
 
 /* Animated Title */
