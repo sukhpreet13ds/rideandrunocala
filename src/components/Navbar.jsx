@@ -30,14 +30,6 @@ const Navbar = ({ openRegistration }) => {
         setIsMenuOpen(false);
     };
 
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 991);
-
-    useEffect(() => {
-        const handleResize = () => setIsMobile(window.innerWidth <= 991);
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
     return (
         <>
             <nav className={`navbar ${isScrolled ? 'scrolled' : ''} animate-nav`}>
@@ -62,7 +54,6 @@ const Navbar = ({ openRegistration }) => {
                 <div className="nav-logo">
                     <Link to="/"><img src={logo} alt="Ride and Run Ocala" /></Link>
                 </div>
-                {!isMobile && (
                 <div className="nav-actions">
                     <a href="#" className="nav-contact-desktop hide-on-laptop" onClick={(e) => { e.preventDefault(); setIsContactOpen(true); }} style={{ color: 'var(--primary-color)', textDecoration: 'none', fontWeight: 'bold', fontSize: '18px', marginRight: '20px', fontFamily: 'var(--font-oxanium)', display: 'flex', alignItems: 'center', transition: 'color 0.3s' }} onMouseOver={(e) => e.target.style.color = '#a0124b'} onMouseOut={(e) => e.target.style.color = 'var(--primary-color)'}>Contact Us</a>
                     <a className='donate-link' href='https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-22195' target='_blank' rel='noopener noreferrer'>
@@ -74,7 +65,6 @@ const Navbar = ({ openRegistration }) => {
                         <span className="icon"><i className="fa-solid fa-file-pen"></i></span> REGISTER FOR THE EVENT
                     </button>
                 </div>
-                )}
                 <button className="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
                     <i className="fa-solid fa-bars"></i>
                 </button>
