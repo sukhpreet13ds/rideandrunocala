@@ -1451,4 +1451,7 @@ padding-top: 150px !important;
     max-width: 95% !important;
     margin: 0 auto;
   }
+  .form-toggle-btn{
+    font-size: 10px !important;
+  }
 }

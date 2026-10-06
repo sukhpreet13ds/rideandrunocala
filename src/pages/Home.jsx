@@ -15,7 +15,7 @@ import action2 from '../assets/action2.jpg';
 import arena1 from '../assets/arena1.jpg';
 import arena2 from '../assets/arena2.jpg';
 import arena3 from '../assets/grande.jpg';
-import survivorLeft from '../assets/NewSurvivorMedal.jpg';
+import survivorLeft from '../assets/NewSurvivorMedal.png';
 import amountBg from '../assets/amount-bg.jpg';
 import React, { useState, useEffect, useRef } from 'react';
 import 'animate.css';
@@ -190,9 +190,9 @@ const Home = ({ openRegistration }) => {
                                 <span className="icon"><i className="fa-solid fa-file-pen"></i></span> Register for the Event
                             </button>
                             <a className='donate-link' href='https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-22195' target='_blank' rel='noopener noreferrer'>
-                            <button className="btn-donate-alt">
-                                <span className="icon"><i className="fa-solid fa-hand-holding-dollar"></i></span> Donate Instead
-                            </button>
+                                <button className="btn-donate-alt">
+                                    <span className="icon"><i className="fa-solid fa-hand-holding-dollar"></i></span> Donate Instead
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -209,7 +209,7 @@ const Home = ({ openRegistration }) => {
                     </div>
                     <div className="stat-card">
                         <h3>2 Beneficiaries</h3>
-                        <p>Moffitt Cancer Center <br/>UF Health Cancer Institute</p>
+                        <p>Moffitt Cancer Center <br />UF Health Cancer Institute</p>
                     </div>
                     <div className="stat-card">
                         <h3>5 & 2 mile</h3>
@@ -242,9 +242,9 @@ const Home = ({ openRegistration }) => {
                     </div>
                 </div>
                 <div className="text-center">
-                   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@rideandrunocala.org" target="_blank" rel="noopener noreferrer">
-                    <button className="btn-contact">CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG</button>
-                   </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@rideandrunocala.org" target="_blank" rel="noopener noreferrer">
+                        <button className="btn-contact">CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG</button>
+                    </a>
                 </div>
             </section>
 
@@ -306,9 +306,9 @@ const Home = ({ openRegistration }) => {
                                 {/* <p className="small-text">A 501(c)(3) nonprofit organization (pending)</p> */}
                             </div>
                             <div className="founder-action">
-                                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@rideandrunocala.org" target="_blank" rel="noopener noreferrer">
-                    <button className="btn-contact">CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG</button>
-                   </a>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@rideandrunocala.org" target="_blank" rel="noopener noreferrer">
+                                    <button className="btn-contact">CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -555,7 +555,7 @@ const Home = ({ openRegistration }) => {
                             <h2>$35</h2>
                             <p>Includes (1) Poker Hand & Event T-shirt, Drawing Ticket</p>
                         </div>
-                        <div className="ticket-register"  onClick={openRegistration} style={{cursor: 'pointer'}}>
+                        <div className="ticket-register" onClick={openRegistration} style={{ cursor: 'pointer' }}>
                             <span>REGISTER</span>
                         </div>
                     </div>
@@ -565,7 +565,7 @@ const Home = ({ openRegistration }) => {
                             <h2>$35</h2>
                             <p>Includes Event T-Shirt, Drawing Ticket</p>
                         </div>
-                        <div className="ticket-register" onClick={openRegistration} style={{cursor: 'pointer'}}>
+                        <div className="ticket-register" onClick={openRegistration} style={{ cursor: 'pointer' }}>
                             <span>REGISTER</span>
                         </div>
                     </div>
@@ -575,7 +575,7 @@ const Home = ({ openRegistration }) => {
                             <h2>$35</h2>
                             <p>Includes Event T-Shirt, Drawing Ticket</p>
                         </div>
-                        <div className="ticket-register" onClick={openRegistration} style={{cursor: 'pointer'}}>
+                        <div className="ticket-register" onClick={openRegistration} style={{ cursor: 'pointer' }}>
                             <span>REGISTER</span>
                         </div>
                     </div>
@@ -593,7 +593,7 @@ const Home = ({ openRegistration }) => {
                             </div>
                             <p>Children 3 & Under 3 Free</p>
                         </div>
-                        <div className="ticket-register" onClick={openRegistration} style={{cursor: 'pointer'}}>
+                        <div className="ticket-register" onClick={openRegistration} style={{ cursor: 'pointer' }}>
                             <span>REGISTER</span>
                         </div>
                     </div>

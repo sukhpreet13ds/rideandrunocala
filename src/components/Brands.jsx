@@ -4,7 +4,7 @@ import platinum1 from '../assets/partner1.png';
 import platinum2 from '../assets/partner2.png';
 import platinum3 from '../assets/grande.jpg';
 import dillon from '../assets/dillon-logo.png';
-import gold1 from '../assets/NewSurvivorMedal.jpg';
+import gold1 from '../assets/NewSurvivorMedal.png';
 import aces from '../assets/aces.jpg';
 
 // import silver1 from '../assets/silver1.png';
@@ -71,7 +71,7 @@ const Brands = () => {
                 </div>
 
                 {/* Gold Tier */}
-                <div className="sponsor-tier-card">
+                {/* <div className="sponsor-tier-card">
                     <h3 className="sponsor-tier-title">GOLD SPONSORS - $5,000+</h3>
                     <div className="sponsor-grid gold-grid">
                         <div className="sponsor-item">
@@ -80,7 +80,7 @@ const Brands = () => {
                         </div>
                      
                     </div>
-                </div>
+                </div> */}
 
                 {/* Silver Tier */}
                 <div className="sponsor-tier-card">
@@ -102,18 +102,18 @@ const Brands = () => {
                             <div className="sponsor-img-wrapper"><img src={silver4} alt="Nature's Trail Leather Goods" /></div>
                             <p>Nature's Trail Leather Goods</p>
                         </div> */}
-                        <div className="sponsor-item" style={{width: "30%"}}>
-                            <div className="sponsor-img-wrapper"><img src={loco} alt="Loco Graphics"  /></div>
+                        <div className="sponsor-item" style={{ width: "30%" }}>
+                            <div className="sponsor-img-wrapper"><img src={loco} alt="Loco Graphics" /></div>
                             <p>Loco Graphics</p>
                         </div>
                     </div>
                 </div>
 
                 {/* Bronze Tier */}
-                <div className="sponsor-tier-card">
+                {/* <div className="sponsor-tier-card">
                     <h3 className="sponsor-tier-title">BRONZE SPONSORS - $1,000+</h3>
                     <div className="sponsor-grid bronze-grid">
-                        {/* <div className="sponsor-item">
+                        <div className="sponsor-item">
                             <div className="sponsor-img-wrapper"><img src={bronze1} alt="Ocala Veterinary Clinic" /></div>
                             <p>Ocala Veterinary Clinic</p>
                         </div>
@@ -132,9 +132,9 @@ const Brands = () => {
                         <div className="sponsor-item">
                             <div className="sponsor-img-wrapper"><img src={bronze5} alt="Florida Trail Riders Alliance" /></div>
                             <p>Florida Trail Riders Alliance</p>
-                        </div> */}
+                        </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Community/Friends Tier ($500) */}
                 <div className="sponsor-tier-card">
@@ -205,7 +205,7 @@ const Brands = () => {
                             </div>
                         </div>
                         <div className="team-collage-item">
-                            <img src={dillon} alt="Clinton" style={{backgroundColor: '#000', padding: "10px"}}/>
+                            <img src={dillon} alt="Clinton" style={{ backgroundColor: '#000', padding: "10px" }} />
                             <div className="team-member-info">
                                 <h4>Clinton Grubbs</h4>
                                 <p>Dillon Media</p>
@@ -226,7 +226,7 @@ const Brands = () => {
                             </div>
                         </div>
                         <div className="team-collage-item">
-                            <img src={lela} alt="Lela" style={{backgroundColor: '#000', padding: "10px"}}/>
+                            <img src={lela} alt="Lela" style={{ backgroundColor: '#000', padding: "10px" }} />
                             <div className="team-member-info">
                                 <h4>Lela Kerley</h4>
                                 <p>Premiere Concierge Care</p>
