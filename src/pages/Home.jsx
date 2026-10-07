@@ -26,6 +26,18 @@ const Home = ({ openRegistration }) => {
     const [isAccordionOpen, setIsAccordionOpen] = useState(false);
 
     useEffect(() => {
+        if (window.location.hash) {
+            const id = window.location.hash.substring(1);
+            setTimeout(() => {
+                const element = document.getElementById(id);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 100);
+        }
+    }, []);
+
+    useEffect(() => {
         if (!titleRef.current) return;
 
         const TEXT = titleRef.current;
@@ -541,7 +553,7 @@ const Home = ({ openRegistration }) => {
                 </div>
             </section>
 
-            <section id="tickets" className="tickets-section" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${amountBg})` }}>
+            <section id="tickets" className="tickets-section" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(${amountBg})` }}>
                 <div className="tickets-banner">
                     <h3>IMPORTANT: ALL RIDERS & RUNNERS MUST ELECTRONICALLY SIGN A WAIVER BEFORE ENTRY.</h3>
                 </div>

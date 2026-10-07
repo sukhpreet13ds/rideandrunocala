@@ -34,19 +34,19 @@ const Navbar = ({ openRegistration }) => {
         <>
             <nav className={`navbar ${isScrolled ? 'scrolled' : ''} animate-nav`}>
                 <div className="nav-links">
-                    <a href="#about">About</a>
-                    <a href="#activities">Activities</a>
-                    <a href="#tickets">Tickets</a>
-                    <a href="#sponsors" className="hide-on-laptop">Sponsors</a>
-                    <a href="#plan" className="hide-on-laptop">Plan Your Visit</a>
+                    <a href="/#about">About</a>
+                    <a href="/#activities">Activities</a>
+                    <a href="/#tickets">Tickets</a>
+                    <a href="/#sponsors" className="hide-on-laptop">Sponsors</a>
+                    <a href="/#plan" className="hide-on-laptop">Plan Your Visit</a>
 
                     <div className="nav-more-dropdown show-on-laptop">
                         <button className="nav-more-btn" onClick={() => setIsMoreOpen(!isMoreOpen)}>
                             <i className="fa-solid fa-grip-lines"></i>
                         </button>
                         <div className={`nav-more-menu ${isMoreOpen ? 'open' : ''}`}>
-                            <a href="#sponsors" onClick={() => setIsMoreOpen(false)}>Sponsors</a>
-                            <a href="#plan" onClick={() => setIsMoreOpen(false)}>Plan Your Visit</a>
+                            <a href="/#sponsors" onClick={() => setIsMoreOpen(false)}>Sponsors</a>
+                            <a href="/#plan" onClick={() => setIsMoreOpen(false)}>Plan Your Visit</a>
                             <a href="#" onClick={(e) => { e.preventDefault(); setIsMoreOpen(false); setIsContactOpen(true); }}>Contact Us</a>
                         </div>
                     </div>
@@ -87,11 +87,11 @@ const Navbar = ({ openRegistration }) => {
 
                 <div className="menu-sidebar-content">
                     <div className="menu-sidebar-links">
-                        <a href="#about" onClick={closeMenu}>About</a>
-                        <a href="#activities" onClick={closeMenu}>Activities</a>
-                        <a href="#tickets" onClick={closeMenu}>Tickets</a>
-                        <a href="#sponsors" onClick={closeMenu}>Sponsors</a>
-                        <a href="#plan" onClick={closeMenu}>Plan Your Visit</a>
+                        <a href="/#about" onClick={closeMenu}>About</a>
+                        <a href="/#activities" onClick={closeMenu}>Activities</a>
+                        <a href="/#tickets" onClick={closeMenu}>Tickets</a>
+                        <a href="/#sponsors" onClick={closeMenu}>Sponsors</a>
+                        <a href="/#plan" onClick={closeMenu}>Plan Your Visit</a>
                         <a href="#" onClick={(e) => { e.preventDefault(); closeMenu(); setIsContactOpen(true); }}>Contact Us</a>
                     </div>
 
