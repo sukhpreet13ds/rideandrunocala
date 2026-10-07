@@ -1,0 +1,2366 @@
+{
+ "navbar.nav.1": {
+  "text": "About",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.2": {
+  "text": "Activities",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.3": {
+  "text": "Tickets",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.4": {
+  "text": "Sponsors",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.5": {
+  "text": "Plan Your Visit",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.6": {
+  "text": "Sponsors",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.7": {
+  "text": "Plan Your Visit",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.8": {
+  "text": "Contact Us",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.9": {
+  "text": "Ride and Run Ocala",
+  "kind": "alt",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.10": {
+  "text": "Contact Us",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.11": {
+  "text": "DONATE",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.nav.12": {
+  "text": "REGISTER FOR THE EVENT",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "nav"
+ },
+ "navbar.menu-sidebar-bg-horse.1": {
+  "text": "Horse outline",
+  "kind": "alt",
+  "page": "Navbar",
+  "section": "menu-sidebar-bg-horse"
+ },
+ "navbar.menu-sidebar-links.1": {
+  "text": "About",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "menu-sidebar-links"
+ },
+ "navbar.menu-sidebar-links.2": {
+  "text": "Activities",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "menu-sidebar-links"
+ },
+ "navbar.menu-sidebar-links.3": {
+  "text": "Tickets",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "menu-sidebar-links"
+ },
+ "navbar.menu-sidebar-links.4": {
+  "text": "Sponsors",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "menu-sidebar-links"
+ },
+ "navbar.menu-sidebar-links.5": {
+  "text": "Plan Your Visit",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "menu-sidebar-links"
+ },
+ "navbar.menu-sidebar-links.6": {
+  "text": "Contact Us",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "menu-sidebar-links"
+ },
+ "navbar.menu-sidebar-actions.1": {
+  "text": "DONATE",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "menu-sidebar-actions"
+ },
+ "navbar.menu-sidebar-actions.2": {
+  "text": "REGISTER FOR THE EVENT",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "menu-sidebar-actions"
+ },
+ "navbar.contact-modal-content.1": {
+  "text": "Contact Us",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "contact-modal-content"
+ },
+ "navbar.contact-modal-content.2": {
+  "text": "Name",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "contact-modal-content"
+ },
+ "navbar.contact-modal-content.3": {
+  "text": "Your Name",
+  "kind": "placeholder",
+  "page": "Navbar",
+  "section": "contact-modal-content"
+ },
+ "navbar.contact-modal-content.4": {
+  "text": "Email",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "contact-modal-content"
+ },
+ "navbar.contact-modal-content.5": {
+  "text": "Your Email",
+  "kind": "placeholder",
+  "page": "Navbar",
+  "section": "contact-modal-content"
+ },
+ "navbar.contact-modal-content.6": {
+  "text": "Message",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "contact-modal-content"
+ },
+ "navbar.contact-modal-content.7": {
+  "text": "How can we help you?",
+  "kind": "placeholder",
+  "page": "Navbar",
+  "section": "contact-modal-content"
+ },
+ "navbar.contact-modal-content.8": {
+  "text": "Send Message",
+  "kind": "text",
+  "page": "Navbar",
+  "section": "contact-modal-content"
+ },
+ "footer.plan.1": {
+  "text": "PLAN YOUR VISIT",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.2": {
+  "text": "THE FLORIDA HORSE PARK",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.3": {
+  "text": "EVENT SCHEDULE — OCT 31, 2026",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.4": {
+  "text": "10:00 AM",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.5": {
+  "text": "Gates Open at The Florida Horse Park!",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.6": {
+  "text": "10:00 AM -",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.7": {
+  "text": "1:00 PM",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.8": {
+  "text": "Poker Ride and Run/Walk/Ruck",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.9": {
+  "text": "1:00 PM",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.10": {
+  "text": "Featured Events and Survivor Celebration in the Main Arena",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.11": {
+  "text": "1:00 PM",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.12": {
+  "text": "Thrilling equestrian performances following the Celebration",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.13": {
+  "text": "Drawing and Prizes complete this wonderful day",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.14": {
+  "text": "4:00 PM",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.15": {
+  "text": "Event Concludes",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.16": {
+  "text": "Florida Horse Park Directions",
+  "kind": "alt",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.17": {
+  "text": "DIRECTIONS",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.18": {
+  "text": "https://maps.app.goo.gl/TB4pSVoj3juUXWm19",
+  "kind": "link",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.19": {
+  "text": "Florida Horse Park: 11008 South Hwy 475, Ocala, FL 34480. Easily accessible from I-75 Exit 341.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.20": {
+  "text": "PARKING",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.21": {
+  "text": "Free parking on-site. Poker Ride participants must use the Highway 475 entrance and will be directed to horse-trailer parking near the trail.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.22": {
+  "text": "WHAT TO BRING",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.23": {
+  "text": "Your ticket registration confirmation, saved on your phone or printed. Sunscreen, a hat, and comfortable footwear.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.plan.24": {
+  "text": "A current Coggins certificate and proper riding equipment if participating with a horse.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "plan"
+ },
+ "footer.press-section.1": {
+  "text": "AS SEEN IN THE PRESS",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.2": {
+  "text": "Celebrating the story, mission, and community behind the event.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.3": {
+  "text": "Ocala Gazette",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.4": {
+  "text": "Celebration of Life: Ride and Run for Breast Cancer",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.5": {
+  "text": "https://www.ocalagazette.com/celebration-of-life-ride-and-run-for-breast-cancer/",
+  "kind": "link",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.6": {
+  "text": "READ MORE",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.7": {
+  "text": "Elite Equestrian Magazine",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.8": {
+  "text": "How I Found Peace, Happiness, and Joy Through Breast Cancer",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.9": {
+  "text": "https://eliteequestrianmagazine.com/how-i-found-peace-happiness-and-joy-through-breast-cancer/",
+  "kind": "link",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.10": {
+  "text": "READ MORE",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.11": {
+  "text": "Elite Equestrian Magazine",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.12": {
+  "text": "Celebration of Life: Ride and Run for Breast Cancer",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.13": {
+  "text": "https://eliteequestrianmagazine.com/celebration-of-life-ride-and-run-for-breast-cancer/",
+  "kind": "link",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.press-section.14": {
+  "text": "READ MORE",
+  "kind": "text",
+  "page": "Footer",
+  "section": "press-section"
+ },
+ "footer.donate-banner.1": {
+  "text": "EVERY DOLLAR FIGHTS BREAST CANCER",
+  "kind": "text",
+  "page": "Footer",
+  "section": "donate-banner"
+ },
+ "footer.donate-banner.2": {
+  "text": "DONATE NOW",
+  "kind": "text",
+  "page": "Footer",
+  "section": "donate-banner"
+ },
+ "footer.policies-section.1": {
+  "text": "Dogs",
+  "kind": "text",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.policies-section.2": {
+  "text": "Dogs must always be on a leash and under control of the handler at all times. Please clean up after your dog.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.policies-section.3": {
+  "text": "Accessibility",
+  "kind": "text",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.policies-section.4": {
+  "text": "The Florida Horse Park is a beautiful 500 acre open/air facility with mainly grass and sand surfaces. There is a roadway that runs through the park, but no protected surfaces. Sand surfaces surround the Main Arena. Parking areas are all covered in grass. Please take necessary precautions when navigating these areas. For further information please contact:",
+  "kind": "text",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.policies-section.5": {
+  "text": "mailto:info@rideandrunocala.org",
+  "kind": "link",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.policies-section.6": {
+  "text": "info@rideandrunocala.org",
+  "kind": "text",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.policies-section.7": {
+  "text": "Event Policies",
+  "kind": "text",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.policies-section.8": {
+  "text": "Liquor and recreational drugs are not allowed in the Florida Horse Park for the Celebration of Life Event.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.policies-section.9": {
+  "text": "No smoking in the arenas, bleachers, stable areas or equine buildings.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.policies-section.10": {
+  "text": "Dogs must always be on a leash and under control of the handler at all times. Please clean up after your dog.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.policies-section.11": {
+  "text": "Dogs will not be permitted in the main arena and bleacher seating areas.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "policies-section"
+ },
+ "footer.footer-main.1": {
+  "text": "Ride and Run Ocala",
+  "kind": "alt",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.2": {
+  "text": "A registered 501(c)(3) nonprofit charity (pending) initiative dedicated to funding breast cancer research. Hosted annually at the Florida Horse Park in Ocala.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.3": {
+  "text": "NAVIGATION",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.4": {
+  "text": "About",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.5": {
+  "text": "Activities",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.6": {
+  "text": "Tickets",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.7": {
+  "text": "Sponsors",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.8": {
+  "text": "Plan Visit",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.9": {
+  "text": "Donate",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.10": {
+  "text": "CONTACT INFO",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.11": {
+  "text": "mailto:info@rideandrunocala.org",
+  "kind": "link",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.12": {
+  "text": "info@rideandrunocala.org",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.13": {
+  "text": "Address: Ocala, Florida (Horse park)",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.14": {
+  "text": "FOLLOW OUR MOVEMENT",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.15": {
+  "text": "Copyright © 2026 Celebration of Life Ride and Run for Breast Cancer, Inc. All Rights Reserved.",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.16": {
+  "text": "Privacy Policy",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "footer.footer-main.17": {
+  "text": "Terms & Condition",
+  "kind": "text",
+  "page": "Footer",
+  "section": "footer-main"
+ },
+ "home.top-banner.1": {
+  "text": "IMPORTANT EVENT REQUIREMENTS:",
+  "kind": "text",
+  "page": "Home page",
+  "section": "top-banner"
+ },
+ "home.top-banner.2": {
+  "text": "All participants, spectators, sponsors and volunteers must sign the Florida Agriculture & Horse Park Authority, Inc. Complete Release From Liability In Case of Injury or Loss, Waiver Indemnity Agreement before registering and entering the Florida Horse Park. Please read the Florida Horse Park Rules and Regulations to help ensure a safe and enjoyable event day. Horse trail riders must also sign the Celebration of Life Waiver and Liability Release Agreement.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "top-banner"
+ },
+ "home.top-banner.3": {
+  "text": "IMPORTANT EVENT REQUIREMENTS:",
+  "kind": "text",
+  "page": "Home page",
+  "section": "top-banner"
+ },
+ "home.top-banner.4": {
+  "text": "All participants, spectators, sponsors and volunteers must sign the Florida Agriculture & Horse Park Authority, Inc. Complete Release From Liability In Case of Injury or Loss, Waiver Indemnity Agreement before registering and entering the Florida Horse Park. Please read the Florida Horse Park Rules and Regulations to help ensure a safe and enjoyable event day. Horse trail riders must also sign the Celebration of Life Waiver and Liability Release Agreement.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "top-banner"
+ },
+ "home.banner-modal-content.1": {
+  "text": "IMPORTANT EVENT REQUIREMENTS",
+  "kind": "text",
+  "page": "Home page",
+  "section": "banner-modal-content"
+ },
+ "home.banner-modal-content.2": {
+  "text": "All participants, spectators, sponsors and volunteers must sign the Florida Agriculture & Horse Park Authority, Inc. Complete Release From Liability In Case of Injury or Loss, Waiver Indemnity Agreement before registering and entering the Florida Horse Park.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "banner-modal-content"
+ },
+ "home.banner-modal-content.3": {
+  "text": "Please read the Florida Horse Park Rules and Regulations to help ensure a safe and enjoyable event day.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "banner-modal-content"
+ },
+ "home.banner-modal-content.4": {
+  "text": "Horse trail riders must also sign the Celebration of Life Waiver and Liability Release Agreement.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "banner-modal-content"
+ },
+ "home.home-container.1": {
+  "text": "Ocala, Florida | October 31, 2026",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.2": {
+  "text": "A CELEBRATION",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.3": {
+  "text": "OF COURAGE,",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.4": {
+  "text": "IN MOTION.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.5": {
+  "text": "A family-friendly day at Florida Horse Park honoring breast cancer survivors and raising funds for breast cancer research at Moffitt Cancer Center and UF Health Cancer Institute.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.6": {
+  "text": "Register for the Event",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.7": {
+  "text": "Donate Instead",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.8": {
+  "text": "Ride right",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.9": {
+  "text": "Adult - $35",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.10": {
+  "text": "Children ages 4-12 - $10",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.11": {
+  "text": "Children age 3 and under free",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.12": {
+  "text": "2 Beneficiaries",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.13": {
+  "text": "Moffitt Cancer Center",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.14": {
+  "text": "UF Health Cancer Institute",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.15": {
+  "text": "5 & 2 mile",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.home-container.16": {
+  "text": "Poker ride and family run/walk/ruck routes",
+  "kind": "text",
+  "page": "Home page",
+  "section": "home-container"
+ },
+ "home.about.1": {
+  "text": "ABOUT THE EVENT",
+  "kind": "text",
+  "page": "Home page",
+  "section": "about"
+ },
+ "home.about.2": {
+  "text": "MAKING A DIFFERENCE",
+  "kind": "text",
+  "page": "Home page",
+  "section": "about"
+ },
+ "home.about.3": {
+  "text": "Ride and Run Ocala",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "about"
+ },
+ "home.about.4": {
+  "text": "ABOUT RIDE & RUN OCALA",
+  "kind": "text",
+  "page": "Home page",
+  "section": "about"
+ },
+ "home.about.5": {
+  "text": "Celebration of Life - Ride & Run for Breast Cancer is a joyful community event created to honor breast cancer survivors, encourage early detection, and raise funds for breast cancer research. The event is presented by Celebration of Life, Ride and Run for Breast Cancer, Inc., a 501(c)(3) nonprofit organization (pending).",
+  "kind": "text",
+  "page": "Home page",
+  "section": "about"
+ },
+ "home.about.6": {
+  "text": "Supporting Breast Cancer Research",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "about"
+ },
+ "home.about.7": {
+  "text": "SUPPORTING BREAST CANCER RESEARCH",
+  "kind": "text",
+  "page": "Home page",
+  "section": "about"
+ },
+ "home.about.8": {
+  "text": "Proceeds from Celebration of Life - Ride & Run for Breast Cancer benefit two leading cancer institutions: Moffitt Cancer Center and UF Health Cancer Institute. Funds raised through the event will help advance breast cancer research, improve treatment, and bring new hope to individuals and families affected by breast cancer.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "about"
+ },
+ "home.about.9": {
+  "text": "https://mail.google.com/mail/?view=cm&fs=1&to=info@rideandrunocala.org",
+  "kind": "link",
+  "page": "Home page",
+  "section": "about"
+ },
+ "home.about.10": {
+  "text": "CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG",
+  "kind": "text",
+  "page": "Home page",
+  "section": "about"
+ },
+ "home.our-story-section.1": {
+  "text": "OUR STORY",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.2": {
+  "text": "RIDE & RUN FOR BREAST CANCER",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.3": {
+  "text": "The Celebration of Life was founded on a simple, powerful promise:",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.4": {
+  "text": "to unite Florida's vibrant horse country and athletic community in the fight against breast cancer. Hosted at Ocala's historic Florida Horse Park, our annual Ride & Run brings families together on the trails and track to honor survivors, remember loved ones, and fund breast cancer research. Every registration, every sponsor, and every single stride moves us closer to a cure.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.5": {
+  "text": "MESSAGES FROM OUR BENEFICIARIES",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.6": {
+  "text": "Moffitt Cancer Center",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.7": {
+  "text": "\"We are grateful for community partners like Celebration of Life, Ride and Run for Breast Cancer who work so hard to organize events and activities that support innovative research and treatment at Moffitt Cancer Center. You strive with us to create a better future without cancer. Thank you so much for your support!\"",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.8": {
+  "text": "Maria Muller",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.9": {
+  "text": "Executive Vice President and President, Moffitt Foundation",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.10": {
+  "text": "UF Health Cancer Institute",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.11": {
+  "text": "\"Each year, thousands of individuals and their loved ones face a breast cancer diagnosis, reminding us of the urgent need for continued prevention, early detection, and treatment innovations. Your support of the Celebration of Life, Ride and Run for Breast Cancer advances breast cancer research at the UF Health Cancer Institute. Breakthroughs in digital imaging, targeted therapies, and tailored survivorship care can transform lives, and your support helps make this work possible. Thank you for helping us move research forward and bring new hope to those affected by breast cancer.\"",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.12": {
+  "text": "Dr. Thomas George",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.our-story-section.13": {
+  "text": "Director, UF Health Cancer Institute",
+  "kind": "text",
+  "page": "Home page",
+  "section": "our-story-section"
+ },
+ "home.why-started-section.1": {
+  "text": "WHY WE STARTED RIDE & RUN",
+  "kind": "text",
+  "page": "Home page",
+  "section": "why-started-section"
+ },
+ "home.why-started-section.2": {
+  "text": "A MESSAGE FROM THE FOUNDER",
+  "kind": "text",
+  "page": "Home page",
+  "section": "why-started-section"
+ },
+ "home.why-started-section.3": {
+  "text": "\"While dealing with breast cancer, I dreamed about creating this joyous event as a way of fighting back and creating awareness. There is life after breast cancer, if diagnosed early.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "why-started-section"
+ },
+ "home.why-started-section.4": {
+  "text": "\"Fear\" is a four-letter word that keeps many women from getting annual mammograms, doing self-exams or going to their doctors. Many walk around for years with lumps they can feel or are even visible. By allowing \"fear\" to rule their lives, they lessen their chances of survival. We hope they will see from the breast cancer survivors today, we are leading happy, healthy and productive lives.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "why-started-section"
+ },
+ "home.why-started-section.5": {
+  "text": "The \"Celebration of Life\" event honors the courage and strength of each breast cancer survivor throughout this life-changing experience. Dr. Bernie Siegel wrote, \"Cancer is a gift.\" It was not readily apparent to me, but as time went on I began to understand what he meant. My gifts are the extraordinary people who continue to come into my life. They show me kindness, compassion and love as I have never known before. And it is because of them, my life has new meaning.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "why-started-section"
+ },
+ "home.why-started-section.6": {
+  "text": "Adrienne Skolnik",
+  "kind": "text",
+  "page": "Home page",
+  "section": "why-started-section"
+ },
+ "home.why-started-section.7": {
+  "text": "Founder, President and Chairwoman",
+  "kind": "text",
+  "page": "Home page",
+  "section": "why-started-section"
+ },
+ "home.why-started-section.8": {
+  "text": "Celebration of Life, Ride and Run for Breast Cancer, Inc.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "why-started-section"
+ },
+ "home.why-started-section.9": {
+  "text": "https://mail.google.com/mail/?view=cm&fs=1&to=info@rideandrunocala.org",
+  "kind": "link",
+  "page": "Home page",
+  "section": "why-started-section"
+ },
+ "home.why-started-section.10": {
+  "text": "CONTACT OUR TEAM AT INFO@RIDEANDRUNOCALA.ORG",
+  "kind": "text",
+  "page": "Home page",
+  "section": "why-started-section"
+ },
+ "home.partners-section.1": {
+  "text": "OUR PARTNERS",
+  "kind": "text",
+  "page": "Home page",
+  "section": "partners-section"
+ },
+ "home.partners-section.2": {
+  "text": "OUR EVENT PARTNERS",
+  "kind": "text",
+  "page": "Home page",
+  "section": "partners-section"
+ },
+ "home.partners-section.3": {
+  "text": "With appreciation to the Florida Horse Park and The Horse Talk Show for helping bring this special day to life.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "partners-section"
+ },
+ "home.partners-section.4": {
+  "text": "Florida Horse Park",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "partners-section"
+ },
+ "home.partners-section.5": {
+  "text": "Florida Horse Park",
+  "kind": "text",
+  "page": "Home page",
+  "section": "partners-section"
+ },
+ "home.partners-section.6": {
+  "text": "Ocala, Florida",
+  "kind": "text",
+  "page": "Home page",
+  "section": "partners-section"
+ },
+ "home.partners-section.7": {
+  "text": "The Horse Talk Show",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "partners-section"
+ },
+ "home.partners-section.8": {
+  "text": "The Horse Talk Show",
+  "kind": "text",
+  "page": "Home page",
+  "section": "partners-section"
+ },
+ "home.partners-section.9": {
+  "text": "with Louisa Barton",
+  "kind": "text",
+  "page": "Home page",
+  "section": "partners-section"
+ },
+ "home.activities.1": {
+  "text": "JOIN THE ACTION",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.2": {
+  "text": "CHOOSE YOUR ADVENTURE",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.3": {
+  "text": "Poker Ride",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.4": {
+  "text": "Bring Your Own Horse Poker Ride",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.5": {
+  "text": "Bring your horse and enjoy a five-mile poker ride along the Florida Greenway. The ride is open from 10:00 a.m. to 1:00 p.m. Minimum age is ten years old. Riders between the ages of ten and fifteen must be accompanied by their parent or responsible adult. Riders will collect their poker hand along the route while enjoying one of Ocala’s beautiful equestrian trails.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.6": {
+  "text": "Rider Requirements",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.7": {
+  "text": "Every horse must have a current negative Coggins certificate. Please bring proof with you; it will be checked when you arrive.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.8": {
+  "text": "Riders age 15 and younger must wear a properly fitted riding helmet, as required by Florida law.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.9": {
+  "text": "All riders must wear riding boots, paddock shoes, or footwear with an adequate heel. Open-toed shoes are not permitted.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.10": {
+  "text": "Backpacks may not be worn during the trail ride.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.11": {
+  "text": "REGISTER TO RIDE",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.12": {
+  "text": "Family Run Walk Ruck",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.13": {
+  "text": "Family Run, Walk & Ruck Walk",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.14": {
+  "text": "Enjoy a scenic two-mile trail at your own pace between 10:00 a.m. and 1:00 p.m. This is a family-oriented activity, not a timed race. Run, walk, or bring your ruck pack and join the Ruck Walk.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.15": {
+  "text": "Parents or guardians must accompany participants age 15 and younger.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.16": {
+  "text": "Strollers for young children are welcome.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.17": {
+  "text": "Bicycles, scooters and motorized scooters, and motorized carts are not permitted on the route.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.18": {
+  "text": "Water stations will be available along the trail.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.19": {
+  "text": "We recommend wearing sunscreen, comfortable shoes, and a hat.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.20": {
+  "text": "Veterans, bring your ruck packs and join us!",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.21": {
+  "text": "REGISTER TO RUN",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.22": {
+  "text": "Your Poker Ride Adventure",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.23": {
+  "text": "Poker Ride participants must enter through the Florida Horse Park entrance on Highway 475.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.24": {
+  "text": "You will be directed to horse-trailer parking directly across from the trail entrance. Parking is free. Please be ready to show your registration and current negative Coggins certificate.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.25": {
+  "text": "All required Florida Horse Park and Celebration of Life Waivers and Liability Release Agreements must be completed online before registration.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.26": {
+  "text": "One poker hand is included with every adult registration.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.27": {
+  "text": "Trail riders can purchase additional poker hands.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.28": {
+  "text": "Registration will record the number of poker hands associated with each rider.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.29": {
+  "text": "Traveling With Your Horse? Overnight Stalls, RV Hookups & Camping",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.30": {
+  "text": "All Trail Riders must enter the Florida Horse Park through the Highway 475 entrance.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.31": {
+  "text": "Trail Riders arriving the day before the Celebration of Life event may reserve overnight stabling and RV Hookup accommodations through one of the following two options. All reservations and payments are made directly with the facility.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.32": {
+  "text": "Option A: Florida Horse Park – Onsite of event",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.33": {
+  "text": "11008 South Highway 475",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.34": {
+  "text": "Ocala, Florida 34480",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.35": {
+  "text": "tel:352-307-6699",
+  "kind": "link",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.36": {
+  "text": "352-307-6699",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.37": {
+  "text": "Overnight rates:",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.38": {
+  "text": "RV hookup:",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.39": {
+  "text": "$45",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.40": {
+  "text": "per night",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.41": {
+  "text": "Stall:",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.42": {
+  "text": "$35",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.43": {
+  "text": "per night",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.44": {
+  "text": "Shavings:",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.45": {
+  "text": "$8",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.46": {
+  "text": "per bag, with a minimum of two bags per stall",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.47": {
+  "text": "Please call the Florida Horse Park directly for",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.48": {
+  "text": "October 30th reservations",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.49": {
+  "text": "for rental of stalls, shavings and RV hookups for Live-In quarters overnight trailer parking.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.50": {
+  "text": "Payment will be made directly to Florida Horse Park at that time.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.51": {
+  "text": "The cut off date for reservations and payment for stalls, RV hookups and shavings will be at",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.52": {
+  "text": "12 Noon, Wednesday, October 28th",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.53": {
+  "text": "with no exceptions.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.54": {
+  "text": "Check-in time is earliest, 12 noon, but no later than 4pm on Oct. 30 to sign Florida Horse Park and Celebration of Life Waiver and Liability Releases before use of stalls and RV hookups.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.55": {
+  "text": "*Copy of Coggins must also be handed in at this time.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.56": {
+  "text": "(Please bring a copy of Coggins to be retained by Florida Horse Park. We will not have access to a copy machine at this time.)",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.57": {
+  "text": "There is ONLY access to stalls and RV hookups. NO ARENA ACCESS. (Undercover, Fiber or Grass).",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.58": {
+  "text": "You are welcome to go on the trails.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.59": {
+  "text": "We appreciate you using only the RV hookup and stall allocated to you when your reservations and payment were made.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.60": {
+  "text": "Stalls must be cleaned after the event or guest will be charged a $20 cleaning fee per stall.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.61": {
+  "text": "Option B: Black Horse Ranch",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.62": {
+  "text": "22651 SE Highway 42",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.63": {
+  "text": "Umatilla, FL 32784",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.64": {
+  "text": "tel:352-718-2270",
+  "kind": "link",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.65": {
+  "text": "(352) 718-2270",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.66": {
+  "text": "Anyone who is registered as a participant for the Celebration of Life event can camp at Black Horse Ranch from October 30 to November 1.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.67": {
+  "text": "They must send us their ticket registration confirmation via email or a screenshot to our text line at",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.68": {
+  "text": "tel:352-718-2270",
+  "kind": "link",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.69": {
+  "text": "352-718-2270",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.70": {
+  "text": "To book a reservation, Celebration of Life participants would text/call us at that same number",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.71": {
+  "text": "tel:312-718-2270",
+  "kind": "link",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.72": {
+  "text": "(312) 718-2270",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.73": {
+  "text": "All information needed will be on our website",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.74": {
+  "text": "http://blackhorseranch.com",
+  "kind": "link",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.75": {
+  "text": "blackhorseranch.com",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.76": {
+  "text": "Participants need to reserve their space by",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.77": {
+  "text": "12 noon, October 28th",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.78": {
+  "text": ", directly through Black Horse Ranch at 352-718-2270.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.79": {
+  "text": "Black Horse Ranch offers 30amp and 50amp sites, welcomes tent camping and horse trailer camping, and can accommodate XXL rigs no problem.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.80": {
+  "text": "We have a kitchen and bathhouse (hot water, showers, laundry) on site that people are welcome to use.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.81": {
+  "text": "We have trails off the property and arena on the property.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.82": {
+  "text": "Outdoor individual paddocks, as well as, stalls.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.activities.83": {
+  "text": "We also have a pool and tack shop onsite.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "activities"
+ },
+ "home.stadium-section.1": {
+  "text": "IN THE ARENA",
+  "kind": "text",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.stadium-section.2": {
+  "text": "Exciting World Class Equestrian Performances",
+  "kind": "text",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.stadium-section.3": {
+  "text": "Survivor Celebration",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.stadium-section.4": {
+  "text": "SURVIVOR CELEBRATION",
+  "kind": "text",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.stadium-section.5": {
+  "text": "Join us for a special Welcoming and Survivor Celebration as we recognize breast cancer survivors, honor their courage and strength, and celebrate life, community, and hope.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.stadium-section.6": {
+  "text": "Mounted Games",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.stadium-section.7": {
+  "text": "MOUNTED GAMES",
+  "kind": "text",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.stadium-section.8": {
+  "text": "Experience the excitement of Mounted Games with The Flying Aces, featuring Jackson Wagner and friends. This fast-paced equestrian sport combines speed, agility, and teamwork.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.stadium-section.9": {
+  "text": "Grande Liberte",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.stadium-section.10": {
+  "text": "GRANDE LIBERTÉ",
+  "kind": "text",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.stadium-section.11": {
+  "text": "Sylvia Zerbini presents Grande Liberté with her Arabian horses, joined by The Jewell Twins violinists. Get ready for a unique mix of horses, music, and equestrian artistry in the main arena.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "stadium-section"
+ },
+ "home.extra-info-section.1": {
+  "text": "DRAWINGS AND PRIZES",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.2": {
+  "text": "Make sure to bring the drawing tickets you received with your registration.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.3": {
+  "text": "Win prizes from local businesses",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.4": {
+  "text": "Poker Hand Trail Ride Prize",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.5": {
+  "text": "Prizes for best Halloween costume, adult, child and horses.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.6": {
+  "text": "MORE TO ENJOY",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.7": {
+  "text": "There is even more waiting for you throughout the day:",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.8": {
+  "text": "Costume fun for guests and participants",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.9": {
+  "text": "A variety of food trucks serving delicious main-course entrees and luscious desserts",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.10": {
+  "text": "Breast Cancer Survivors Gold Medal",
+  "kind": "alt",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.11": {
+  "text": "SURVIVORS GOLD MEDAL",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.12": {
+  "text": "All breast cancer survivors will receive as our special gift, the \"Survivor Gold Medal.\" For they are all winners having fought this battle and won!",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.13": {
+  "text": "Are you a breast cancer survivor?",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.14": {
+  "text": "Please check the box so you can receive the Survivor Gold Medal",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.extra-info-section.15": {
+  "text": "HONORING EVERY SURVIVOR",
+  "kind": "text",
+  "page": "Home page",
+  "section": "extra-info-section"
+ },
+ "home.tickets.1": {
+  "text": "IMPORTANT: ALL RIDERS & RUNNERS MUST ELECTRONICALLY SIGN A WAIVER BEFORE ENTRY.",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.2": {
+  "text": "Poker Ride Ticket",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.3": {
+  "text": "$35",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.4": {
+  "text": "Includes (1) Poker Hand & Event T-shirt, Drawing Ticket",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.5": {
+  "text": "REGISTER",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.6": {
+  "text": "Family Run / Walk / Ruck",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.7": {
+  "text": "$35",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.8": {
+  "text": "Includes Event T-Shirt, Drawing Ticket",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.9": {
+  "text": "REGISTER",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.10": {
+  "text": "Main Arena Equestrian Events",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.11": {
+  "text": "$35",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.12": {
+  "text": "Includes Event T-Shirt, Drawing Ticket",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.13": {
+  "text": "REGISTER",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.14": {
+  "text": "Adults",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.15": {
+  "text": "$35",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.16": {
+  "text": "Children 4-12",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.17": {
+  "text": "$10",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.18": {
+  "text": "Children 3 & Under 3 Free",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "home.tickets.19": {
+  "text": "REGISTER",
+  "kind": "text",
+  "page": "Home page",
+  "section": "tickets"
+ },
+ "sponsors.sponsors.1": {
+  "text": "OUR PARTNERS",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.2": {
+  "text": "COMMITTED SPONSORS",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.3": {
+  "text": "PLATINUM SPONSORS - $10,000+",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.4": {
+  "text": "Florida Horse Park",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.5": {
+  "text": "Florida Horse Park",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.6": {
+  "text": "Dillon Media",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.7": {
+  "text": "Dillon Media",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.8": {
+  "text": "The Horse Talk Show",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.9": {
+  "text": "The Horse Talk Show",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.10": {
+  "text": "The Florida Horse Park Foundation",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.11": {
+  "text": "The Flying Aces with Jackson Wagner and friends",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.12": {
+  "text": "The Florida Horse Park Foundation",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.13": {
+  "text": "Grande Liberte Farm",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.14": {
+  "text": "Black Horse Ranch",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.15": {
+  "text": "Black Horse Ranch",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.16": {
+  "text": "Bayview Bins",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.17": {
+  "text": "Bayview Bins",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.18": {
+  "text": "SILVER SPONSORS - $2,500+",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.19": {
+  "text": "Loco Graphics",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.20": {
+  "text": "Loco Graphics",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.21": {
+  "text": "FRIENDS SPONSORS - $500+",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.22": {
+  "text": "Hook Company",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.23": {
+  "text": "Hook Company",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.24": {
+  "text": "FRIENDS SPONSORS - $500+ | CELEBRATION OF LIFE TEAM",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.25": {
+  "text": "Adrienne",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.26": {
+  "text": "Adrienne Skolnik",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.27": {
+  "text": "Chairwoman",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.28": {
+  "text": "Clinton",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.29": {
+  "text": "Clinton Grubbs",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.30": {
+  "text": "Dillon Media",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.31": {
+  "text": "Aces",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.32": {
+  "text": "Jackson Wagner",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.33": {
+  "text": "The Flying Aces",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.34": {
+  "text": "John",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.35": {
+  "text": "John Golden",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.36": {
+  "text": "Golden Reed Wealth Management",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.37": {
+  "text": "Lela",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.38": {
+  "text": "Lela Kerley",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.39": {
+  "text": "Premiere Concierge Care",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.40": {
+  "text": "Lisa",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.41": {
+  "text": "Lisa Ciesniewski",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.42": {
+  "text": "The Dark Horse Project",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.43": {
+  "text": "Marilee",
+  "kind": "alt",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.44": {
+  "text": "Marilee McGinnis",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.45": {
+  "text": "WANT TO BECOME AN OFFICIAL SPONSOR?",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.46": {
+  "text": "Gain prime brand exposure across equestrian and running communities. Over 1,000 highly active participants expected in Ocala.",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "sponsors.sponsors.47": {
+  "text": "SPONSORSHIP KIT (PDF)",
+  "kind": "text",
+  "page": "Sponsors strip",
+  "section": "sponsors"
+ },
+ "song.song-section.1": {
+  "text": "Ride and Run Ocala Banner",
+  "kind": "alt",
+  "page": "Theme song",
+  "section": "song-section"
+ },
+ "song.song-section.2": {
+  "text": "OUR THEME SONG",
+  "kind": "text",
+  "page": "Theme song",
+  "section": "song-section"
+ },
+ "song.song-section.3": {
+  "text": "OUR CELEBRATION OF LIFE THEME SONG",
+  "kind": "text",
+  "page": "Theme song",
+  "section": "song-section"
+ },
+ "song.song-section.4": {
+  "text": "\"We Are Family\" by Sister Sledge is the Celebration of Life theme song. This inspiring music opens our main arena program and embraces the breast cancer survivors among us. Come celebrate, dance, and share the joy with our community.",
+  "kind": "text",
+  "page": "Theme song",
+  "section": "song-section"
+ },
+ "song.song-section.5": {
+  "text": "Video Thumbnail",
+  "kind": "alt",
+  "page": "Theme song",
+  "section": "song-section"
+ },
+ "sponsorpage.sponsor-page-container.1": {
+  "text": "Sponsorship Opportunities",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.2": {
+  "text": "Help Us Celebrate Life and Support Breast Cancer Research",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.3": {
+  "text": "Become a sponsor of Celebration of Life - Ride & Run for Breast Cancer and join our community coming together to honor breast cancer survivors, encourage early detection, and support innovative research at Moffitt Cancer Center and UF Health Cancer Institute.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.4": {
+  "text": "Your sponsorship helps make this family-friendly event possible while giving your business or organization meaningful visibility before and during the event.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.5": {
+  "text": "Saturday, October 31, 2026 | 10:00 a.m. - 4:00 p.m.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.6": {
+  "text": "Florida Horse Park | Ocala, Florida",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.7": {
+  "text": "Sponsor Table",
+  "kind": "alt",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.8": {
+  "text": "Choose Your Sponsorship Level",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.9": {
+  "text": "$10,000 Presenting Sponsor",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.10": {
+  "text": "Premium featured recognition across event media; an extra-large custom event banner; recognition during the main arena program; first choice of exhibit space; reserved arena seating; featured logo placement on the event T-shirt; and 20 event tickets.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.11": {
+  "text": "$7,500 Premier Sponsor",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.12": {
+  "text": "Individual logo recognition in event media; a large custom event banner; recognition surrounded with the Trail Ride; second choice of exhibit space; reserved arena seating; first-tier logo placement on the event T-shirt; and 15 event tickets.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.13": {
+  "text": "$5,000 Featured Sponsor",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.14": {
+  "text": "Individual logo recognition in event media; a medium custom event banner; recognition surrounded with the Run/Walk/Ruck Walk; third choice of exhibit space; reserved arena seating; second-tier logo placement on the event T-shirt; and 10 event tickets.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.15": {
+  "text": "$2,500 Supporting Sponsor",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.16": {
+  "text": "Group logo recognition in event media and event banners; fourth choice of exhibit space; reserved arena seating; group logo placement on the event T-shirt; and 8 event tickets.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.17": {
+  "text": "$1,500 Community Sponsor",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.18": {
+  "text": "Group logo recognition in event media and event banners; fifth choice of exhibit space; reserved arena seating; group logo placement on the event T-shirt; and 6 event tickets.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.19": {
+  "text": "$500 Friend of the Event",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.20": {
+  "text": "Group logo recognition in event media and event banners; sixth choice of exhibit space; reserved arena seating; group logo placement on the event T-shirt; and 4 event tickets.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.21": {
+  "text": "Sponsor Booth Requirements",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.22": {
+  "text": "Sponsors planning to have a booth must submit all required information and proof of insurance no later than October 15, 2026. Sponsors will not be permitted to set up without prior receipt and approval of the required insurance.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.23": {
+  "text": "Please email the following to",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.24": {
+  "text": "mailto:info@rideandrunocala.org",
+  "kind": "link",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.25": {
+  "text": "info@rideandrunocala.org",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.26": {
+  "text": "Proof of insurance",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.27": {
+  "text": "Business or organization name",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.28": {
+  "text": "A description of the booth, display, or presentation",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.29": {
+  "text": "The number of people staffing the booth",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.30": {
+  "text": "Sponsors must provide their own 10-by-10-foot tent, tables, and chairs. Electricity is not available.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.31": {
+  "text": "Ready to Become a Sponsor?",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.32": {
+  "text": "We would be honored to recognize your support. Select your sponsorship level and help us create a joyful day of community, remembrance, survivor celebration, and hope.",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.33": {
+  "text": "For sponsorship questions, email",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.34": {
+  "text": "mailto:info@rideandrunocala.org",
+  "kind": "link",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "sponsorpage.sponsor-page-container.35": {
+  "text": "info@rideandrunocala.org",
+  "kind": "text",
+  "page": "Sponsorship page",
+  "section": "sponsor-page-container"
+ },
+ "notice.text": {
+  "text": "Register in advance for a smoother arrival at the Florida Horse Park. Every guest and participant (parent and child) must be listed on the registration. Registration and ticket may not be transferred to another person.",
+  "kind": "text",
+  "page": "Pop-ups",
+  "section": "Welcome notice"
+ },
+ "register.step1.title": {
+  "text": "Registration Requirements",
+  "kind": "text",
+  "page": "Registration pop-up",
+  "section": "Step 1"
+ },
+ "register.step1.p1": {
+  "text": "Before you can proceed with your registration, you must review and digitally sign the event liability waiver.",
+  "kind": "text",
+  "page": "Registration pop-up",
+  "section": "Step 1"
+ },
+ "register.step1.p2": {
+  "text": "This process ensures the safety and compliance of all participants at the Florida Horse Park.",
+  "kind": "text",
+  "page": "Registration pop-up",
+  "section": "Step 1"
+ },
+ "register.step1.button": {
+  "text": "PROCEED TO WAIVER",
+  "kind": "text",
+  "page": "Registration pop-up",
+  "section": "Step 1"
+ },
+ "register.step3.title": {
+  "text": "Select Tickets & Checkout",
+  "kind": "text",
+  "page": "Registration pop-up",
+  "section": "Step 3"
+ },
+ "register.survivor.label": {
+  "text": "Are you a breast cancer survivor? Please check the box to receive the Survivor Gold Medal as our gift.",
+  "kind": "text",
+  "page": "Registration pop-up",
+  "section": "Step 3"
+ },
+ "register.step4.title": {
+  "text": "Registration Complete!",
+  "kind": "text",
+  "page": "Registration pop-up",
+  "section": "Success"
+ },
+ "register.step4.p1": {
+  "text": "Thank you for registering for the Celebration of Life - Ride & Run for Breast Cancer.",
+  "kind": "text",
+  "page": "Registration pop-up",
+  "section": "Success"
+ },
+ "register.step4.p2": {
+  "text": "Your receipt and entry confirmation have been emailed to you.",
+  "kind": "text",
+  "page": "Registration pop-up",
+  "section": "Success"
+ },
+ "donate.title": {
+  "text": "Donate to Change Lives",
+  "kind": "text",
+  "page": "Donation pop-up",
+  "section": "Donation form"
+ },
+ "donate.description": {
+  "text": "Our mission is to bring the community together to honor breast cancer survivors, raise awareness and support the work of UF Health Cancer Institute and Moffitt Cancer Center. Every donation helps advance the fight against breast cancer and makes the Celebration of Life Ride & Run possible.",
+  "kind": "text",
+  "page": "Donation pop-up",
+  "section": "Donation form"
+ },
+ "donate.choose": {
+  "text": "Choose an amount:",
+  "kind": "text",
+  "page": "Donation pop-up",
+  "section": "Donation form"
+ },
+ "donate.didyouknow": {
+  "text": "Did you know? We fundraise directly so that 100% of your donation goes to our mission!",
+  "kind": "text",
+  "page": "Donation pop-up",
+  "section": "Donation form"
+ },
+ "donate.thanks.title": {
+  "text": "Thank you for your generosity!",
+  "kind": "text",
+  "page": "Donation pop-up",
+  "section": "Success"
+ },
+ "donate.thanks.body": {
+  "text": "Your donation has been received and a receipt is on its way to your inbox. Every dollar fights breast cancer.",
+  "kind": "text",
+  "page": "Donation pop-up",
+  "section": "Success"
+ }
+}
