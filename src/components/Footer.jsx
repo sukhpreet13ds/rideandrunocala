@@ -10,7 +10,7 @@ const Footer = () => {
                 id="plan"
                 className="visit-section"
                 style={{
-                    backgroundImage: `linear-gradient(#ec4899cc, #db2777aa), url(${directionBg})`
+                    backgroundImage: `linear-gradient(#db2777e6, #9d174df2), url(${directionBg})`
 
                 }}
             >
@@ -55,7 +55,7 @@ const Footer = () => {
                                 <div className="info-box-icon"><i className="fa-solid fa-location-dot"></i></div>
                                 <div className="info-box-content">
                                     <h4>DIRECTIONS</h4>
-                                    <p>Florida Horse Park: 11008 South Hwy 475, Ocala, FL 34480. Easily accessible from I-75 Exit 341.</p>
+                                    <a href='https://maps.app.goo.gl/TB4pSVoj3juUXWm19' target='_blank' rel='noopener noreferrer' style={{color:"inherit",textDecoration:"none"}}> <p>Florida Horse Park: 11008 South Hwy 475, Ocala, FL 34480. Easily accessible from I-75 Exit 341.</p></a>
                                 </div>
                             </div>
                             <div className="info-box">

@@ -150,7 +150,7 @@
 }
 
 .nav-logo img {
-    height: 216px;
+    height: 236px;
     border-radius: 50%;
 }
 
@@ -1014,7 +1014,7 @@ font-size: 72px;
 .why-left-image {
     flex: 0 0 45%;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 }
 
 .why-content-wrapper {
@@ -2596,7 +2596,7 @@ color: var(--primary-color) !important;
 
 /* Sponsorship Page Styles */
 .sponsor-page-container {
-    padding-top: 250px;
+    padding-top: 270px;
     background-color: #ffffff;
     font-family: var(--font-oxanium);
 }

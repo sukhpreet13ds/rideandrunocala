@@ -64,11 +64,11 @@ body {
   }
 
   .section-title {
-    font-size: 48px !important;
+    font-size: 42px !important;
   }
 
   .stat-card h3 {
-    font-size: 32px !important;
+    font-size: 24px !important;
   }
 
   .stat-card p {
@@ -98,7 +98,7 @@ body {
   }
 
   .stadium-card-content p {
-    font-size: 17px !important;
+    font-size: 16px !important;
   }
 
   .navbar.scrolled {
@@ -120,6 +120,52 @@ body {
 
   .story-cards {
     gap: 17px !important;
+  }
+
+  .btn-register,
+  .btn-donate-alt {
+    font-size: 16px !important;
+  }
+
+  .nav-links a {
+    font-size: 17px !important;
+  }
+
+  .btn-donate {
+    font-size: 15px !important;
+  }
+
+  .btn-register-outline {
+    font-size: 15px !important;
+  }
+
+  .hero-description {
+    font-size: 20px !important;
+  }
+
+  .event-card h3 {
+    font-size: 34px !important;
+  }
+
+  .event-card p {
+    font-size: 18px !important;
+  }
+  .stadium-card-content h3 {
+font-size: 28px !important;
+  }
+  .ticket-content h4 {
+  font-size: 20px !important;
+  }
+  .ticket-content h2 {
+    font-size: 42px !important;
+  }
+  .why-started-section {
+    flex-direction: column !important;
+  }
+  .why-left-image {
+    width: 100% !important;
+    height: 1200px !important;
+    flex: none !important;
   }
 }
 
@@ -190,7 +236,7 @@ body {
   }
 
   .why-left-image {
-    min-height: 800px !important;
+    min-height: 1200px !important;
   }
 
   .btn-donate,
@@ -423,7 +469,7 @@ body {
   }
 
   .why-left-image {
-    min-height: 400px;
+    min-height: 1100px;
   }
 
   .founder-footer {
@@ -1421,37 +1467,47 @@ body {
     font-size: 14px;
     padding: 10px;
   }
-.sponsor-page-container {
-padding-top: 150px !important;
-}
-.sponsor-page-title {
+
+  .sponsor-page-container {
+    padding-top: 150px !important;
+  }
+
+  .sponsor-page-title {
     font-size: 32px !important;
   }
+
   .sponsor-page-subtitle {
     font-size: 22px !important;
   }
+
   .sponsor-page-section-title {
     font-size: 28px !important;
   }
+
   .sponsor-page-footer h2 {
     font-size: 28px !important;
   }
-  .registration-modal-content{
+
+  .registration-modal-content {
     padding: 18px !important;
   }
+
   .form-row {
     flex-direction: column !important;
     gap: 15px !important;
   }
+
   .sigCanvas {
     max-width: 100% !important;
     touch-action: none !important;
   }
+
   .registration-modal-content {
     max-width: 95% !important;
     margin: 0 auto;
   }
-  .form-toggle-btn{
+
+  .form-toggle-btn {
     font-size: 10px !important;
   }
 }

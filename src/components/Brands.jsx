@@ -5,7 +5,7 @@ import platinum2 from '../assets/partner2.png';
 import platinum3 from '../assets/grande.jpg';
 import dillon from '../assets/dillon-logo.png';
 import gold1 from '../assets/NewSurvivorMedal.png';
-import aces from '../assets/aces.jpg';
+import aces from '../assets/aces.png';
 
 // import silver1 from '../assets/silver1.png';
 // import silver2 from '../assets/silver2.png';
@@ -25,6 +25,7 @@ import adrienne from '../assets/rideandocala.png';
 import john from '../assets/golden.jpg';
 import lela from '../assets/premiumm.svg';
 import lisa from '../assets/dark-horse.jpg';
+import marilee from '../assets/marilee.png';
 
 const Brands = () => {
     return (
@@ -60,8 +61,8 @@ const Brands = () => {
                             <p>Grande Liberte Farm</p>
                         </div>
                         <div className="sponsor-item">
-                            <div className="sponsor-img-wrapper"><img src={dark} alt="The Dark Horse Project" style={{ transform: 'scale(0.6)' }} /></div>
-                            <p>The Dark Horse Project</p>
+                            <div className="sponsor-img-wrapper"><img src={dark} alt="Black Horse Ranch" style={{ transform: 'scale(0.6)' }} /></div>
+                            <p>Black Horse Ranch</p>
                         </div>
                         <div className="sponsor-item">
                             <div className="sponsor-img-wrapper"><img src={baywers} alt="Bayview Bins" /></div>
@@ -239,7 +240,12 @@ const Brands = () => {
                                 <p>The Dark Horse Project</p>
                             </div>
                         </div>
-
+                        <div className="team-collage-item">
+                            <img src={marilee} alt="Marilee" />
+                            <div className="team-member-info">
+                                <h4>Marilee McGinnis</h4>
+                            </div>
+                        </div>
                         {/* <div className="team-collage-item">
                             <img src={marilee} alt="Marilee" />
                             <div className="team-member-info">

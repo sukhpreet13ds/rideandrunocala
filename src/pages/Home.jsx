@@ -348,7 +348,7 @@ const Home = ({ openRegistration }) => {
                         <div className="adventure-card-content">
                             <div className="adventure-card-title">
                                 <span className="adventure-icon"><i className="fa-solid fa-xmark"></i></span>
-                                <h3>Bring Your Own Horse Poker Trail Ride</h3>
+                                <h3>Bring Your Own Horse Poker Ride</h3>
                             </div>
                             <p className='join-p'>Bring your horse and enjoy a five-mile poker ride along the Florida Greenway. The ride is open from 10:00 a.m. to 1:00 p.m. Minimum age is ten years old. Riders between the ages of ten and fifteen must be accompanied by their parent or responsible adult. Riders will collect their poker hand along the route while enjoying one of Ocala’s beautiful equestrian trails.</p>
                             <p className='join-p'><b>Rider Requirements</b></p>
@@ -477,7 +477,6 @@ const Home = ({ openRegistration }) => {
                         <div className="stadium-card-content">
                             <h3>SURVIVOR CELEBRATION</h3>
                             <p>Join us for a special Welcoming and Survivor Celebration as we recognize breast cancer survivors, honor their courage and strength, and celebrate life, community, and hope.</p>
-                            <a href="#" className="read-more-link active">READ MORE</a>
                         </div>
                     </div>
                     <div className="stadium-card">
@@ -485,7 +484,6 @@ const Home = ({ openRegistration }) => {
                         <div className="stadium-card-content">
                             <h3>MOUNTED GAMES</h3>
                             <p>Experience the excitement of Mounted Games with The Flying Aces, featuring Jackson Wagner and friends. This fast-paced equestrian sport combines speed, agility, and teamwork.</p>
-                            <a href="#" className="read-more-link">READ MORE</a>
                         </div>
                     </div>
                     <div className="stadium-card">
@@ -493,7 +491,6 @@ const Home = ({ openRegistration }) => {
                         <div className="stadium-card-content">
                             <h3>GRANDE LIBERTÉ</h3>
                             <p>Sylvia Zerbini presents Grande Liberté with her Arabian horses, joined by The Jewell Twins violinists.  Get ready for a unique mix of horses, music, and equestrian artistry in the main arena.</p>
-                            <a href="#" className="read-more-link">READ MORE</a>
                         </div>
                     </div>
                 </div>

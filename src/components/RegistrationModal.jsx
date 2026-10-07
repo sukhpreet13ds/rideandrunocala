@@ -22,7 +22,6 @@ const RegistrationModal = ({ isOpen, onClose }) => {
     const [initialPoints, setInitialPoints] = useState(Array(7).fill(''));
 
     // Checkbox validation states
-    const [aeaAgreed, setAeaAgreed] = useState(false);
     const [pokerEndAgreed, setPokerEndAgreed] = useState(false);
 
     // Form field states
@@ -118,10 +117,6 @@ const RegistrationModal = ({ isOpen, onClose }) => {
                 setValidationError('Please enter your email address on the waiver (Page 1).');
                 return;
             }
-            if (!aeaAgreed) {
-                setValidationError('Please check and confirm: "I have read the AEA guidelines" (before Page 3).');
-                return;
-            }
             if (!pokerEndAgreed) {
                 setValidationError('Please check and agree to the Safety Guidelines & Rules at the end of the Poker Trail Ride.');
                 return;
@@ -186,7 +181,7 @@ const RegistrationModal = ({ isOpen, onClose }) => {
                         {/* Top Bar Switcher - 3 Toggles */}
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px', flexWrap: 'wrap', gap: '10px' }}>
                             <div style={{ fontWeight: 'bold', color: '#1B2431', fontSize: '14px' }}>
-                                Form Type: <span style={{ color: '#C8175D' }}>{getFormTitle()}</span>
+                                Form Type: <br/><span style={{ color: '#C8175D' }}>{getFormTitle()}</span>
                             </div>
                             <div className="form-type-toggle-container" style={{ margin: 0, padding: '4px', gap: '6px' }}>
                                 <button
@@ -195,6 +190,7 @@ const RegistrationModal = ({ isOpen, onClose }) => {
                                     onClick={() => { setEntryType('poker_ride'); setValidationError(''); }}
                                     style={{ padding: '6px 12px', fontSize: '12px' }}
                                 >
+                                    {entryType === 'poker_ride' && <i className="fa-solid fa-heart fa-beat" style={{ marginRight: '6px' }}></i>}
                                     For The Poker Ride
                                 </button>
                                 <button
@@ -203,6 +199,7 @@ const RegistrationModal = ({ isOpen, onClose }) => {
                                     onClick={() => { setEntryType('walk_run_ruck'); setValidationError(''); }}
                                     style={{ padding: '6px 12px', fontSize: '12px' }}
                                 >
+                                    {entryType === 'walk_run_ruck' && <i className="fa-solid fa-heart fa-beat" style={{ marginRight: '6px' }}></i>}
                                     For The Walk Run Ruck
                                 </button>
                                 <button
@@ -211,6 +208,7 @@ const RegistrationModal = ({ isOpen, onClose }) => {
                                     onClick={() => { setEntryType('general_admission'); setValidationError(''); }}
                                     style={{ padding: '6px 12px', fontSize: '12px' }}
                                 >
+                                    {entryType === 'general_admission' && <i className="fa-solid fa-heart fa-beat" style={{ marginRight: '6px' }}></i>}
                                     General Admission Tickets
                                 </button>
                             </div>
@@ -395,22 +393,6 @@ const RegistrationModal = ({ isOpen, onClose }) => {
                                         </div>
                                     </div>
 
-                                    {/* LINE FOR CHECKBOX BEFORE THIRD PAGE: AEA GUIDELINES */}
-                                    <div className="pdf-aea-guidelines-box">
-                                        <label style={{ display: 'flex', alignItems: 'center', gap: '12px', cursor: 'pointer', margin: 0, width: '100%' }}>
-                                            <input
-                                                type="checkbox"
-                                                id="aeaGuidelinesCheckbox"
-                                                checked={aeaAgreed}
-                                                onChange={(e) => {
-                                                    setAeaAgreed(e.target.checked);
-                                                    if (e.target.checked && validationError) setValidationError('');
-                                                }}
-                                                style={{ transform: 'scale(1.2)' }}
-                                            />
-                                            <span><strong>I have read the AEA guidelines</strong> (Safety Guidelines ‘Celebration of Life’ for Poker Trail Ride participants)</span>
-                                        </label>
-                                    </div>
 
                                     {/* PAGE 3 (Poker Ride Waiver Page 1 of 3) */}
                                     <div className="fake-pdf-page">
@@ -1234,7 +1216,11 @@ const RegistrationModal = ({ isOpen, onClose }) => {
                                 </div>
                             </div>
                             
-                            <div className="checkout-summary">
+                            <div className="checkout-summary" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                <label style={{ display: 'flex', alignItems: 'center', gap: '10px', cursor: 'pointer', margin: 0, textAlign: 'left' }}>
+                                    <input type="checkbox" style={{ transform: 'scale(1.2)' }} />
+                                    <span style={{ fontSize: '13.5px', fontWeight: '500', color: '#1B2431' }}>Please check here if you are a breast cancer survivor<br/>to receive the Survivor Gold Medal.</span>
+                                </label>
                                 <h3>Total: {entryType === 'poker_ride' ? '$45.00' : entryType === 'walk_run_ruck' ? '$35.00' : '$25.00'}</h3>
                             </div>
 
