@@ -53,7 +53,7 @@ export async function POST(req) {
       amount: priced.totalCents,
       currency: 'usd',
       receipt_email: email,
-      automatic_payment_methods: { enabled: true },
+      payment_method_types: ['card'],
       description: `Ride & Run registration #${id} (${entryType})`,
       metadata: { kind: 'registration', registration_id: String(id) },
     });

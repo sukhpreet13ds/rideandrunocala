@@ -28,7 +28,7 @@ export async function POST(req) {
       amount: cents,
       currency: 'usd',
       receipt_email: email,
-      automatic_payment_methods: { enabled: true },
+      payment_method_types: ['card'],
       description: `Donation #${id} – Celebration of Life Ride & Run`,
       metadata: { kind: 'donation', donation_id: String(id) },
     });
