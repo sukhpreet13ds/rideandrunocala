@@ -25,7 +25,7 @@ import adrienne from '../assets/rideandocala.png';
 import john from '../assets/golden.jpg';
 import lela from '../assets/premiumm.svg';
 import lisa from '../assets/dark-horse.jpg';
-import marilee from '../assets/marilee.png';
+import marilee from '../assets/marileelady.png';
 
 const Brands = () => {
     return (
@@ -246,13 +246,7 @@ const Brands = () => {
                                 <h4>Marilee McGinnis</h4>
                             </div>
                         </div>
-                        {/* <div className="team-collage-item">
-                            <img src={marilee} alt="Marilee" />
-                            <div className="team-member-info">
-                                <h4>Marilee McGinnis</h4>
-                                <p>Company Name</p>
-                            </div>
-                        </div> */}
+                       
                     </div>
                 </div>
             </div>
